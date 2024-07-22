@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>sundown-studioBy-Abhishek</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"><!--This is locomotive css this is use for smooth scrolling Cdn-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="OldStyle.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="android-chrome-192x192.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  </head>
+  <body class="2xl:overflow-y-scroll 2xl:overflow-x-hidden xl:overflow-y-scroll xl:overflow-x-hidden lg:overflow-y-scroll lg:overflow-x-hidden md:overflow-y-scroll md:overflow-x-hidden sm::overflow-hidden">
+    <div id="fixd-container" class="2xl:w-96 2xl:overflow-hidden 2xl:h-[30vw] 2xl:hidden 2xl:rounded-xl  2xl:z-[99] 2xl:fixed 2xl:top-[30%] 2xl:left-[50%]
+    xl:w-96 xl:overflow-hidden xl:h-[30vw] xl:hidden xl:rounded-xl  xl:z-[99] xl:fixed xl:top-[30%] xl:left-[50%]
+    lg:w-96 lg:overflow-hidden lg:h-[30vw] lg:hidden lg:rounded-xl  lg:z-[99] lg:fixed lg:top-[30%] lg:left-[50%]
+    md:w-96 md:overflow-hidden md:h-[30vw] md:hidden md:rounded-xl  md:z-[99] md:fixed md:top-[30%] md:left-[50%]
+    max-sm:w-96 max-sm:overflow-hidden max-sm:h-[30vw] max-sm:hidden max-sm:rounded-xl  max-sm:z-[99] max-sm:fixed max-sm:top-[30%] max-sm:left-[50%]
+    w-96 overflow-hidden h-[30vw] hidden rounded-xl  z-[99] fixed top-[30%] left-[50%]"></div>
+    <div id="main" class=" relative z-50">
+      <div id="page" class="min-h-[100vh] w-[100%] bg-stone-200">
+        <nav
+          class="py-[2vw] px-[3vw] w-[100%] flex align-middle justify-between
+          2xl:py-[2vw] 2xl:px-[3vw] 2xl:w-[100%] 2xl:flex 2xl:align-middle 2xl:justify-between
+          xl:py-[2vw] xl:px-[3vw] xl:w-[100%] xl:flex xl:align-middle xl:justify-between
+          lg:py-[2vw] lg:px-[3vw] lg:w-[100%] lg:flex lg:align-middle lg:justify-between
+          md:py-[2vw] md:px-[3vw] md:w-[100%] md:flex md:align-middle md:justify-between
+          sm:py-[2vw] sm:px-[3vw] sm:w-[100%] sm:flex sm:align-middle sm:justify-between
+          max-sm:py-[2vw] max-sm:px-[3vw] max-sm:w-[100%] max-sm:flex max-sm:align-middle max-sm:justify-between">
+          <img src="https://assets-global.website-files.com/64d3dd9edfb41666c35b15b7/64d3dd9edfb41666c35b15c2_Sundown%20logo.svg" alt="img">
+          <div id="nav-part2" class="2xl:flex 2xl:gap-3 2xl:py-3 xl:flex xl:gap-3 xl:py-3 lg:flex lg:gap-3 lg:py-3 md:flex md:gap-3 md:py-3 sm:flex max-sm:gap-3 max-sm:py-3 max-sm:flex max-gap-3 max-py-3">
+            <h1 class="2xl:px-5 2xl:font-normal 2xl:overflow-hidden 2xl:text-zinc-950 2xl:text-lg 2xl:py-2 2xl:text-center 2xl:border-[1px] 2xl:border-zinc-500 2xl:rounded-3xl 2xl:relative 2xl:after:content-[''] 2xl:after:absolute 2xl:after:h-[100%] 2xl:after:w-[100%] 2xl:after:bg-black 2xl:after:left-0 2xl:after:bottom-[-100%] 2xl:after:rounded-[50%] 2xl:hover:after:bottom-0 2xl:hover:after:rounded-none 2xl:hover:after:ease-in 2xl:hover:after:duration-300
+            xl:px-5 xl:font-normal xl:overflow-hidden xl:text-zinc-950 xl:text-lg xl:py-2 xl:text-center xl:border-[1px] xl:border-zinc-500 xl:rounded-3xl xl:relative xl:after:content-[''] xl:after:absolute xl:after:h-[100%] xl:after:w-[100%] xl:after:bg-black xl:after:left-0 xl:after:bottom-[-100%] xl:after:rounded-[50%] xl:hover:after:bottom-0 xl:hover:after:rounded-none xl:hover:after:ease-in xl:hover:after:duration-300
+            lg:px-5 lg:font-normal lg:overflow-hidden lg:text-zinc-950 lg:text-lg lg:py-2 lg:text-center lg:border-[1px] lg:border-zinc-500 lg:rounded-3xl lg:relative lg:after:content-[''] lg:after:absolute lg:after:h-[100%] lg:after:w-[100%] lg:after:bg-black lg:after:left-0 lg:after:bottom-[-100%] lg:after:rounded-[50%] lg:hover:after:bottom-0 lg:hover:after:rounded-none lg:hover:after:ease-in lg:hover:after:duration-300
+            md:px-5 md:font-normal md:overflow-hidden md:text-zinc-950 md:text-lg md:py-2 md:text-center md:border-[1px] md:border-zinc-500 md:rounded-3xl md:relative md:after:content-[''] md:after:absolute md:after:h-[100%] md:after:w-[100%] md:after:bg-black md:after:left-0 md:after:bottom-[-100%] md:after:rounded-[50%] md:hover:after:bottom-0 md:hover:after:rounded-none md:hover:after:ease-in md:hover:after:duration-300
+            sm:px-5 sm:font-normal sm:overflow-hidden sm:bg-red-500 sm:text-zinc-950 sm:text-lg sm:py-2 sm:text-center sm:border-[1px] sm:border-zinc-500 sm:rounded-3xl sm:relative sm:after:content-[''] sm:after:absolute sm:after:h-[100%] sm:after:w-[100%] sm:after:bg-black sm:after:left-0 sm:after:bottom-[-100%] sm:after:rounded-[50%] sm:hover:after:bottom-0 sm:hover:after:rounded-none sm:hover:after:ease-in sm:hover:after:duration-300
+            max-sm:px-5 max-sm:font-normal max-sm:overflow-hidden max-sm:bg-yellow-300  max-sm:text-zinc-950 max-sm:text-lg max-sm:py-2 max-sm:text-center max-sm:border-[1px] max-sm:border-zinc-500 max-sm:rounded-3xl max-sm:relative max-sm:after:content-[''] max-sm:after:absolute max-sm:after:h-[100%] max-sm:after:w-[100%] max-sm:after:bg-black max-sm:after:left-0 max-sm:after:bottom-[-100%] max-sm:after:rounded-[50%] max-sm:hover:after:bottom-0 max-sm:hover:after:rounded-none max-sm:hover:after:ease-in max-sm:hover:after:duration-300
+            ">
+              <a href="#" class="relative text-black z-10 hover:text-white">Work</a>
+            </h1>
+            <h1 class="2xl:px-5 2xl:font-normal 2xl:overflow-hidden 2xl:text-zinc-950 2xl:relative 2xl:text-lg 2xl:py-2 2xl:text-center 2xl:border-[1px] 2xl:border-zinc-500 2xl:rounded-3xl 2xl:after:content-[''] 2xl:after:absolute 2xl:after:h-[100%] 2xl:after:w-[100%] 2xl:after:bg-black 2xl:after:left-0 2xl:after:bottom-[-100%] 2xl:after:rounded-[50%] 2xl:hover:after:bottom-0 2xl:hover:after:rounded-none 2xl:hover:after:ease-in 2xl:hover:after:duration-300
+            xl:px-5 xl:font-normal xl:overflow-hidden xl:text-zinc-950 xl:relative xl:text-lg xl:py-2 xl:text-center xl:border-[1px] xl:border-zinc-500 xl:rounded-3xl xl:after:content-[''] xl:after:absolute xl:after:h-[100%] xl:after:w-[100%] xl:after:bg-black xl:after:left-0 xl:after:bottom-[-100%] xl:after:rounded-[50%] xl:hover:after:bottom-0 xl:hover:after:rounded-none xl:hover:after:ease-in xl:hover:after:duration-300
+            lg:px-5 lg:font-normal lg:overflow-hidden lg:text-zinc-950 lg:relative lg:text-lg lg:py-2 lg:text-center lg:border-[1px] lg:border-zinc-500 lg:rounded-3xl lg:after:content-[''] lg:after:absolute lg:after:h-[100%] lg:after:w-[100%] lg:after:bg-black lg:after:left-0 lg:after:bottom-[-100%] lg:after:rounded-[50%] lg:hover:after:bottom-0 lg:hover:after:rounded-none lg:hover:after:ease-in lg:hover:after:duration-300
+            md:px-5 md:font-normal md:overflow-hidden md:text-zinc-950 md:relative md:text-lg md:py-2 md:text-center md:border-[1px] md:border-zinc-500 md:rounded-3xl md:after:content-[''] md:after:absolute md:after:h-[100%] md:after:w-[100%] md:after:bg-black md:after:left-0 md:after:bottom-[-100%] md:after:rounded-[50%] md:hover:after:bottom-0 md:hover:after:rounded-none md:hover:after:ease-in md:hover:after:duration-300
+            sm:px-5 sm:font-normal sm:overflow-hidden sm:text-zinc-950 sm:relative sm:text-lg sm:py-2 sm:text-center sm:border-[1px] sm:border-zinc-500 sm:rounded-3xl sm:after:content-[''] sm:after:absolute sm:after:h-[100%] sm:after:w-[100%] sm:after:bg-black sm:after:left-0 sm:after:bottom-[-100%] sm:after:rounded-[50%] sm:hover:after:bottom-0 sm:hover:after:rounded-none sm:hover:after:ease-in sm:hover:after:duration-300
+            max-sm:px-5 max-sm:font-normal max-sm:overflow-hidden max-sm:text-zinc-950 max-sm:relative max-sm:text-lg max-sm:py-2 max-sm:text-center max-sm:border-[1px] max-sm:border-zinc-500 max-sm:rounded-3xl max-sm:after:content-[''] max-sm:after:absolute max-sm:after:h-[100%] max-sm:after:w-[100%] max-sm:after:bg-black max-sm:after:left-0 max-sm:after:bottom-[-100%] max-sm:after:rounded-[50%] max-sm:hover:after:bottom-0 max-sm:hover:after:rounded-none max-sm:hover:after:ease-in max-sm:hover:after:duration-300
+
+            px-5 font-normal overflow-hidden text-zinc-950 relative text-lg py-2 text-center border-[1px] border-zinc-500 rounded-3xl after:content-[''] after:absolute after:h-[100%] after:w-[100%] after:bg-black after:left-0 after:bottom-[-100%] after:rounded-[50%] hover:after:bottom-0 hover:after:rounded-none hover:after:ease-in hover:after:duration-300">
+              <a href="#" class="relative text-black z-10 hover:text-white">Studio</a>
+            </h1>
+            <h1 class="2xl:px-5 2xl:font-normal 2xl:overflow-hidden 2xl:text-zinc-950 2xl:relative 2xl:text-lg 2xl:py-2 2xl:text-center 2xl:border-[1px] 2xl:border-zinc-500 2xl:rounded-3xl 2xl:after:content-[''] 2xl:after:absolute 2xl:after:h-[100%] 2xl:after:w-[100%] 2xl:after:bg-black 2xl:after:left-0 2xl:after:bottom-[-100%] 2xl:after:rounded-[50%] 2xl:hover:after:bottom-0 2xl:hover:after:rounded-none 2xl:hover:after:ease-in 2xl:hover:after:duration-300
+            xl:px-5 xl:font-normal xl:overflow-hidden xl:text-zinc-950 xl:relative xl:text-lg xl:py-2 xl:text-center xl:border-[1px] xl:border-zinc-500 xl:rounded-3xl xl:after:content-[''] xl:after:absolute xl:after:h-[100%] xl:after:w-[100%] xl:after:bg-black xl:after:left-0 xl:after:bottom-[-100%] xl:after:rounded-[50%] xl:hover:after:bottom-0 xl:hover:after:rounded-none xl:hover:after:ease-in xl:hover:after:duration-300
+            md:px-5 md:font-normal md:overflow-hidden md:text-zinc-950 md:relative md:text-lg md:py-2 md:text-center md:border-[1px] md:border-zinc-500 md:rounded-3xl md:after:content-[''] md:after:absolute md:after:h-[100%] md:after:w-[100%] md:after:bg-black md:after:left-0 md:after:bottom-[-100%] md:after:rounded-[50%] md:hover:after:bottom-0 md:hover:after:rounded-none md:hover:after:ease-in md:hover:after:duration-300
+            lg:px-5 lg:font-normal lg:overflow-hidden lg:text-zinc-950 lg:relative lg:text-lg lg:py-2 lg:text-center lg:border-[1px] lg:border-zinc-500 lg:rounded-3xl lg:after:content-[''] lg:after:absolute lg:after:h-[100%] lg:after:w-[100%] lg:after:bg-black lg:after:left-0 lg:after:bottom-[-100%] lg:after:rounded-[50%] lg:hover:after:bottom-0 lg:hover:after:rounded-none lg:hover:after:ease-in lg:hover:after:duration-300
+            sm:px-5 sm:font-normal sm:overflow-hidden sm:text-zinc-950 sm:relative sm:text-lg sm:py-2 sm:text-center sm:border-[1px] sm:border-zinc-500 sm:rounded-3xl sm:after:content-[''] sm:after:absolute sm:after:h-[100%] sm:after:w-[100%] sm:after:bg-black sm:after:left-0 sm:after:bottom-[-100%] sm:after:rounded-[50%] sm:hover:after:bottom-0 sm:hover:after:rounded-none sm:hover:after:ease-in sm:hover:after:duration-300
+            max-sm:px-5 max-sm:font-normal max-sm:overflow-hidden max-sm:text-zinc-950 max-sm:relative max-sm:text-lg max-sm:py-2 max-sm:text-center max-sm:border-[1px] max-sm:border-zinc-500 max-sm:rounded-3xl max-sm:after:content-[''] max-sm:after:absolute max-sm:after:h-[100%] max-sm:after:w-[100%] max-sm:after:bg-black max-sm:after:left-0 max-sm:after:bottom-[-100%] max-sm:after:rounded-[50%] max-sm:hover:after:bottom-0 max-sm:hover:after:rounded-none max-sm:hover:after:ease-in max-sm:hover:after:duration-300
+            px-5 font-normal overflow-hidden text-zinc-950 relative text-lg py-2 text-center border-[1px] border-zinc-500 rounded-3xl after:content-[''] after:absolute after:h-[100%] after:w-[100%] after:bg-black after:left-0 after:bottom-[-100%] after:rounded-[50%] hover:after:bottom-0 hover:after:rounded-none hover:after:ease-in hover:after:duration-300">
+              <a href="#" class="relative text-black z-10 hover:text-white">Contact</a>
+            </h1>
+          </div>
+        </nav>
+        <div id="center" class="h-[77vh] w-[100%] border-b-[1px] border-gray-500">
+          
+          <div id="leftPara" class="
+          2xl:pt-[24rem] 2xl:px-8
+           xl:pt-[12rem] xl:px-8
+            lg:pt-[12rem] lg:px-8
+             md:pt-[17rem] md:px-8 
+             sm:pt-[20rem] sm:px-8
+             max-sm:pt-[20rem] max-sm:px-8 ">
+            <p class=" 2xl:text-2xl 2xl:font-sans
+             xl:font-bold xl:text-2xl xl:font-sans
+              lg:font-bold lg:text-2xl lg:font-sans
+               md:font-bold md:text-xl md:font-sans
+                sm:font-bold sm:line-clamp-[-5px] sm:text-xl sm:font-sans sm:-mt-4
+                max-sm:font-bold max-sm:line-clamp-[-5px] max-sm:text-xl max-sm:font-sans max-sm:-mt-4">
+              Sundown is a multi-disciplinary <br>
+              studio focused on creating <br>
+              unique, end-to-end experiences
+              <br>and environments.
+            </p>
+          </div>
+          <div id="rightPara" class="2xl:ml-[54%] 2xl:-top-[28rem] 2xl:relative
+           xl:relative xl:ml-[54%] xl:-top-[20rem] 
+           lg:relative lg:ml-[54%] lg:-top-[13.5rem] 
+           md:relative md:ml-[48%] md:-top-[21.5rem] 
+           sm:relative sm:ml-[37%] sm:-top-[24.5rem]
+           max-sm:relative max-sm:ml-[37%] max-sm:-top-[24.5rem]">
+            <p>
+                <h1 class="2xl:text-[160px] 2xl:font-bold 2xl:absolute 
+                xl:absolute xl:text-[100px] xl:font-bold
+                 lg:absolute lg:text-[100px] lg:font-bold
+                  md:absolute md:text-[100px] md:font-bold
+                   sm:absolute sm:text-[90px] sm:font-bold
+                   max-sm:absolute max-sm:text-[90px] max-sm:font-bold">
+                   SPACES</h1> 
+                <h1 class="2xl:text-[160px] 2xl:font-bold 2xl:absolute 2xl:top-32 2xl:left-52
+                 xl:absolute xl:text-[100px] xl:font-bold xl:top-24 
+                 lg:absolute lg:text-[100px] xl:left-52 lg:font-bold lg:top-24 lg:left-52
+                  md:absolute md:text-[100px] md:font-bold md:top-24 md:left-32 
+                  sm:absolute sm:text-[90px] sm:font-bold sm:top-[72px] sm:left-32
+                  max-sm:absolute max-sm:text-[90px] max-sm:font-bold max-sm:top-[72px] max-sm:left-32">
+                  THAT</h1>
+                <h1 class="2xl:text-[160px] 2xl:font-bold 2xl:absolute 2xl:top-[260px] 
+                xl:absolute xl:text-[100px] xl:top-44 xl:font-bold
+                 lg:absolute lg:text-[100px] lg:top-44 lg:font-bold 
+                 md:absolute md:text-[100px] md:top-44 md:font-bold 
+                 sm:absolute sm:text-[90px] sm:top-[144px] sm:font-bold
+                 max-sm:absolute max-sm:text-[90px] max-sm:top-[144px] max-sm:font-bold">
+                 INSPIRE</h1>
+              </p>  
+          </div>
+        </div>
+        <div id="superhero" class="w-[46vw] h-[36vw] absolute right-0 -mt-24 z-10 ">
+          <div id="shape" class="2xl:absolute 2xl:w-[110%]  2xl:rounded-tl-[50%] 2xl:blur-lg 2xl:rounded-es-[50%] 2xl:h-[100%] 2xl:bg-orange-600 2xl:-right-2 2xl:top-0 xl:absolute xl:w-[110%]  xl:rounded-tl-[50%] xl:blur-lg xl:rounded-es-[50%] xl:h-[100%] xl:bg-orange-600 xl:-right-2 xl:top-0 lg:absolute lg:w-[110%]  lg:rounded-tl-[50%] lg:blur-lg lg:rounded-es-[50%] lg:h-[100%] lg:bg-orange-600 lg:-right-2 lg:top-0 md:absolute md:w-[120%]  md:rounded-tl-[50%] md:blur-lg md:rounded-es-[50%] md:h-[130%] md:bg-orange-600 md:-right-2 md:top-0 sm:w-[120%]  sm:rounded-tl-[50%] sm:blur-lg sm:rounded-es-[50%] sm:h-[130%] sm:bg-orange-600 sm:-right-2 sm:top-0"></div>
+          <div id="shape2" class="2xl:w-[30vw] 2xl:h-[30vw] 2xl:absolute 2xl:z-10 2xl:rounded-full 2xl:left-52 2xl:bg-orange-600 2xl:blur-md xl:w-[30vw] xl:h-[30vw] xl:absolute xl:z-10 xl:rounded-full xl:left-52 xl:bg-orange-600 xl:blur-md lg:w-[30vw] lg:h-[30vw] lg:absolute lg:z-10 lg:rounded-full lg:left-52 lg:bg-orange-600 lg:blur-md2xl:w-[30vw] md:h-[30vw] md:absolute md:z-10 md:rounded-full md:left-52 md:bg-orange-600 md:blur-md  sm:h-[30vw] sm:absolute sm:z-10 sm:rounded-full sm:left-52 sm:bg-orange-600 sm:blur-md "></div>
+          <div id="shape3" class="2xl:w-[30vw] 2xl:h-[30vw] 2xl:absolute 2xl:z-10 2xl:rounded-full  2xl:top-2 2xl:bg-orange-600 2xl:blur-md xl:w-[30vw] xl:h-[30vw] xl:absolute xl:z-10 xl:rounded-full  xl:top-2 xl:bg-orange-600 xl:blur-md lg:w-[30vw] lg:h-[30vw] lg:absolute lg:z-10 lg:rounded-full  lg:top-2 lg:bg-orange-600 lg:blur-md md:w-[30vw] md:h-[30vw] md:absolute md:z-10 md:rounded-full  md:top-2 md:bg-orange-600 md:blur-md sm:w-[30vw] sm:h-[30vw] sm:absolute sm:z-10 sm:rounded-full  sm:top-2 sm:bg-orange-600 sm:blur-md "></div>
+        </div>
+        <div class="w-[100%] absolute h max-sm:-w-[100%] max-sm:-bsolute h-[100vh] p-8 z-10">
+          <video class="mt-12 rounded-xl  w-[100%]" src="bg.mp4" autoplay loop muted></video>
+        </div>
+        <div id="marque" class="2xl:min-w-[100%] 2xl:h-[40vh] 2xl:relative  2xl:mt-[60%] 2xl:flex 2xl:gap-10 
+         xl:min-w-[100%] xl:h-[30vh] xl:bg-stone-200 xl:mt-[60%] xl:flex xl:gap-10
+          lg:min-w-[100%] lg:h-[30vh] lg:bg-stone-200 lg:mt-[60%] lg:flex lg:gap-10
+           md:min-w-[100%] md:h-[30vh] md:bg-stone-200 md:mt-[70%] md:flex md:gap-10
+            sm:min-w-[100%] sm:h-[30vh] sm:bg-stone-200 sm:mt-[70%] sm:flex sm:gap-10
+            max-sm:min-w-[100%] max-sm:h-[30vh] max-sm:bg-stone-200 max-sm:mt-[70%] max-sm:flex max-sm:gap-10">
+         <h1 class="2xl:text-[9vw] 2xl:font-bold 2xl:font-sans xl:text-[9vw] xl:font-bold xl:font-sans lg:text-[9vw] lg:font-bold lg:font-sans md:text-[9vw] md:font-bold md:font-sans sm:text-[9vw] sm:font-bold sm:font-sans max-sm:text-[9vw] max-sm:font-bold max-sm:font-sans">  <i class="ri-circle-fill 2xl:text-[90px] 2xl:text-orange-600 2xl:relative 2xl:-top-5 xl:text-[90px] xl:text-orange-600 xl:relative xl:-top-5 lg:text-[90px] lg:text-orange-600 lg:relative lg:-top-1 md:text-orange-600 md:relative md:-top-1 sm:text-orange-600 sm:relative sm:-top-1 max-sm:text-orange-600 max-sm:relative max-sm:-top-1"></i>ENVIRONMENTS</h1>
+         <h1 class="2xl:text-[9vw] 2xl:font-bold 2xl:font-sans xl:text-[9vw] xl:font-bold xl:font-sans lg:text-[9vw] lg:font-bold lg:font-sans md:text-[9vw] md:font-bold md:font-sans sm:text-[9vw] sm:font-bold sm:font-sans max-sm:text-[9vw] max-sm:font-bold max-sm:font-sans">  <i class="ri-circle-fill 2xl:text-[90px] 2xl:text-orange-600 2xl:relative 2xl:-top-5 xl:text-[90px] xl:text-orange-600 xl:relative xl:-top-5 lg:text-[90px] lg:text-orange-600 lg:relative lg:-top-1 md:text-orange-600 md:relative md:-top-1 sm:text-orange-600 sm:relative sm:-top-1 max-sm:text-orange-600 max-sm:relative max-sm:-top-1"></i>CONTENT</h1>
+         <h1 class="2xl:text-[9vw] 2xl:font-bold 2xl:font-sans xl:text-[9vw] xl:font-bold xl:font-sans lg:text-[9vw] lg:font-bold lg:font-sans md:text-[9vw] md:font-bold md:font-sans sm:text-[9vw] sm:font-bold sm:font-sans max-sm:text-[9vw] max-sm:font-bold max-sm:font-sans">  <i class="ri-circle-fill 2xl:text-[90px] 2xl:text-orange-600 2xl:relative 2xl:-top-5 xl:text-[90px] xl:text-orange-600 xl:relative xl:-top-5 lg:text-[90px] lg:text-orange-600 lg:relative lg:-top-1 md:text-orange-600 md:relative md:-top-1 sm:text-orange-600 sm:relative sm:-top-1 max-sm:text-orange-600 max-sm:relative max-sm:-top-1"></i>EXPERIENCES </h1>
+         <h1 class="2xl:text-[9vw] 2xl:font-bold 2xl:font-sans xl:text-[9vw] xl:font-bold xl:font-sans lg:text-[9vw] lg:font-bold lg:font-sans md:text-[9vw] md:font-bold md:font-sans sm:text-[9vw] sm:font-bold sm:font-sans max-sm:text-[9vw] max-sm:font-bold max-sm:font-sans">  <i class="ri-circle-fill 2xl:text-[90px] 2xl:text-orange-600 2xl:relative 2xl:-top-5 xl:text-[90px] xl:text-orange-600 xl:relative xl:-top-5 lg:text-[90px] lg:text-orange-600 lg:relative lg:-top-1 md:text-orange-600 md:relative md:-top-1 sm:text-orange-600 sm:relative sm:-top-1 max-sm:text-orange-600 max-sm:relative max-sm:-top-1"></i>ENVIRONMENTS</h1>
+         <h1 class="2xl:text-[9vw] 2xl:font-bold 2xl:font-sans xl:text-[9vw] xl:font-bold xl:font-sans lg:text-[9vw] lg:font-bold lg:font-sans md:text-[9vw] md:font-bold md:font-sans sm:text-[9vw] sm:font-bold sm:font-sans max-sm:text-[9vw] max-sm:font-bold max-sm:font-sans">  <i class="ri-circle-fill 2xl:text-[90px] 2xl:text-orange-600 2xl:relative 2xl:-top-5 xl:text-[90px] xl:text-orange-600 xl:relative xl:-top-5 lg:text-[90px] lg:text-orange-600 lg:relative lg:-top-1 md:text-orange-600 md:relative md:-top-1 sm:text-orange-600 sm:relative sm:-top-1 max-sm:text-orange-600 max-sm:relative max-sm:-top-1"></i>CONTENT</h1>
+         <h1 class="2xl:text-[9vw] 2xl:font-bold 2xl:font-sans xl:text-[9vw] xl:font-bold xl:font-sans lg:text-[9vw] lg:font-bold lg:font-sans md:text-[9vw] md:font-bold md:font-sans sm:text-[9vw] sm:font-bold sm:font-sans max-sm:text-[9vw] max-sm:font-bold max-sm:font-sans">  <i class="ri-circle-fill 2xl:text-[90px] 2xl:text-orange-600 2xl:relative 2xl:-top-5 xl:text-[90px] xl:text-orange-600 xl:relative xl:-top-5 lg:text-[90px] lg:text-orange-600 lg:relative lg:-top-1 md:text-orange-600 md:relative md:-top-1 sm:text-orange-600 sm:relative sm:-top-1 max-sm:text-orange-600 max-sm:relative max-sm:-top-1"></i>EXPERIENCES </h1>
+         <h1 class="2xl:text-[9vw] 2xl:font-bold 2xl:font-sans xl:text-[9vw] xl:font-bold xl:font-sans lg:text-[9vw] lg:font-bold lg:font-sans md:text-[9vw] md:font-bold md:font-sans sm:text-[9vw] sm:font-bold sm:font-sans max-sm:text-[9vw] max-sm:font-bold max-sm:font-sans">  <i class="ri-circle-fill 2xl:text-[90px] 2xl:text-orange-600 2xl:relative 2xl:-top-5 xl:text-[90px] xl:text-orange-600 xl:relative xl:-top-5 lg:text-[90px] lg:text-orange-600 lg:relative lg:-top-1 md:text-orange-600 md:relative md:-top-1 sm:text-orange-600 sm:relative sm:-top-1 max-sm:text-orange-600 max-sm:relative max-sm:-top-1"></i>ENVIRONMENTS</h1>
+         <h1 class="2xl:text-[9vw] 2xl:font-bold 2xl:font-sans xl:text-[9vw] xl:font-bold xl:font-sans lg:text-[9vw] lg:font-bold lg:font-sans md:text-[9vw] md:font-bold md:font-sans sm:text-[9vw] sm:font-bold sm:font-sans max-sm:text-[9vw] max-sm:font-bold max-sm:font-sans">  <i class="ri-circle-fill 2xl:text-[90px] 2xl:text-orange-600 2xl:relative 2xl:-top-5 xl:text-[90px] xl:text-orange-600 xl:relative xl:-top-5 lg:text-[90px] lg:text-orange-600 lg:relative lg:-top-1 md:text-orange-600 md:relative md:-top-1 sm:text-orange-600 sm:relative sm:-top-1 max-sm:text-orange-600 max-sm:relative max-sm:-top-1"></i>CONTENT</h1>
+         <h1 class="2xl:text-[9vw] 2xl:font-bold 2xl:font-sans xl:text-[9vw] xl:font-bold xl:font-sans lg:text-[9vw] lg:font-bold lg:font-sans md:text-[9vw] md:font-bold md:font-sans sm:text-[9vw] sm:font-bold sm:font-sans max-sm:text-[9vw] max-sm:font-bold max-sm:font-sans">  <i class="ri-circle-fill 2xl:text-[90px] 2xl:text-orange-600 2xl:relative 2xl:-top-5 xl:text-[90px] xl:text-orange-600 xl:relative xl:-top-5 lg:text-[90px] lg:text-orange-600 lg:relative lg:-top-1 md:text-orange-600 md:relative md:-top-1 sm:text-orange-600 sm:relative sm:-top-1 max-sm:text-orange-600 max-sm:relative max-sm:-top-1"></i>EXPERIENCES </h1><i class="ri-circle-fill 2xl:text-[90px] 2xl:text-orange-600 2xl:relative 2xl:-top-5 xl:text-[90px] xl:text-orange-600 xl:relative xl:-top-5 lg:text-[90px] lg:text-orange-600 lg:relative lg:-top-1 md:text-orange-600 md:relative md:-top-1 sm:text-orange-600 sm:relative sm:-top-1 max-sm:text-orange-600 max-sm:relative max-sm:-top-1"></i>
+        </div>  
+  </div>
+  <div id="page2" class="2xl:min-w-[100%] 2xl:h-[150vh]  2xl:relative  2xl:bg-stone-200 2xl:-mt-28   xl:min-w-[100%] xl:h-[150vh]  xl:relative  xl:bg-stone-200
+    lg:min-w-[100%] lg:h-[150vh]  lg:relative  lg:bg-stone-200
+     md:min-w-[100%] md:h-[150vh]  md:relative  md:bg-stone-200
+      sm:min-w-[100%] sm:h-[150vh]  sm:relative  sm:bg-stone-200
+      max-sm:min-w-[100%] max-sm:h-[150vh]  max-sm:relative  max-sm:bg-stone-200
+      ">
+   <div class="2xl:relative 2xl:top-40 2xl:-ml-28 
+   xl:relative xl:top-40 xl:-ml-28 
+   lg:relative lg:top-20 lg:-ml-28 
+   md:relative md:-top-4 md:-ml-28 
+   sm:relative sm:top-0 sm:-ml-28
+   max-sm:relative max-sm:top-0 max-sm:-ml-28">
+     <div id="para" class="2xl:absolute 2xl:z-40 2xl:ml-20 2xl:-mt-18
+      xl:absolute xl:z-40 xl:left-52 xl:-top-20
+       lg:absolute lg:z-40 lg:left-40 lg:w-[40rem] lg:top-10
+        md:absolute md:z-40 md:left-36 md:w-[25rem] md:top-6
+        sm:absolute sm:z-40 sm:left-[9rem] sm:w-[37rem] sm:h-60 sm:top-6
+        max-sm:absolute max-sm:z-40 max-sm:left-[9rem] max-sm:w-fit max-sm:h-60 max-sm:top-6">
+       <p class="2xl:text-[62px] 2xl:leading-[4rem] 2xl:tracking-tighter 2xl:font-bold 2xl:font-sans
+        xl:text-[50px] xl:text-wrap xl:leading-[3rem] xl:tracking-normal xl:font-bold xl:font-sans 
+        lg:text-[50px] lg:text-wrap lg:leading-[3rem] lg:tracking-normal lg:font-bold lg:font-sans
+         md:text-[40px] md:text-wrap md:leading-[3rem] md:tracking-normal md:font-bold md:font-sans
+         sm:text-[40px] sm:text-wrap sm:leading-[40px] sm:tracking-normal sm:font-bold sm:font-sans 
+         max-sm:text-[40px] max-sm:text-wrap max-sm:leading-[40px] max-sm:tracking-normal max-sm:font-bold max-sm:font-sans ">
+        We are a group of design- driven, goal-focused creators, producers, and designers who believe that the details make all the difference.</p>
+       </div>
+       <div class="2xl:absolute 2xl:-top-10 2xl:left-24 xl:absolute xl:-top-28 xl:left-24 lg:absolute lg:top-10 lg:left-24 md:absolute md:top-40 md:left-24 sm:absolute sm:top-40 sm:left-24 sm:-z-[7px]">
+         <div id="animation2" class="2xl:w-[35vw] 2xl:h-[35vw] 2xl:absolute 2xl:z-30 2xl:rounded-full 2xl:left-52 2xl:blur-lg 2xl:shadow-2xl 2xl:shadow-rose-600 2xl:bg-orange-600
+          xl:w-[35vw] xl:h-[35vw] xl:absolute xl:z-30 xl:rounded-full xl:left-0 xl:top-36 xl:blur-lg xl:shadow-2xl xl:shadow-rose-600 xl:bg-orange-600
+           lg:w-[45vw] lg:h-[45vw] lg:absolute lg:z-30 lg:rounded-full lg:left-0 lg:top-36 lg:blur-lg lg:shadow-2xl lg:shadow-rose-600 lg:bg-orange-600
+            md:w-[50vw] md:h-[50vw] md:absolute  md:rounded-full md:left-0 md:top-36 md:blur-md md:shadow-2xl md:shadow-rose-600 md:-z-0 md:bg-orange-600
+            sm:w-[60vw] sm:h-[60vw] sm:absolute  sm:rounded-full sm:left-40 sm:-top-10 sm:blur-md sm:shadow-2xl sm:shadow-rose-600 sm:-z-0 sm:bg-orange-600
+            max-sm:w-[60vw] max-sm:h-[60vw] max-sm:absolute  max-sm:rounded-full max-sm:left-40 max-sm:-top-10 max-sm:blur-md max-sm:shadow-2xl max-sm:shadow-rose-600 max-sm:-z-0 max-sm:bg-orange-600"></div>
+               </div>
+       </div>
+       <div class="2xl:h-[23rem] 2xl:w-[20rem] 2xl:pt-[30rem]  2xl:ml-[70rem]
+        xl:h-[23rem] xl:w-[20rem] xl:pt-[18rem]  xl:ml-[55rem]
+         lg:h-[23rem] lg:w-[20rem] lg:pt-[22rem]  lg:ml-[46rem] 
+         md:h-[23rem] md:w-[15rem] md:pt-[20rem] md:z-50  md:ml-[30rem]
+         sm:h-[23rem] sm:w-[15rem] sm:pt-[18rem] sm:z-[99] sm:absolute sm:ml-[3rem]
+         max-sm:h-[23rem] max-sm:w-[15rem] max-sm:pt-[21rem] max-sm:z-[99] max-sm:absolute max-sm:ml-[3rem]">
+         <div class="2xl:h-40 2xl:w-[15rem] xl:h-40 xl:w-[12rem]  lg:h-40 lg:w-[12rem] md:h-40 md:w-[12rem] sm:h-40 sm:w-[22rem]  max-sm:h-40 max-sm:w-[22rem]">
+           <img class="rounded-md w-[19rem]" src="https://assets-global.website-files.com/64d3dd9edfb41666c35b15b7/64d3dd9edfb41666c35b15d1_Holding_thumb-p-500.jpg" alt="img">
+           </div>
+          <div class="2xl:h-48 2xl:w-[15rem] 2xl:mt-5 xl:h-48
+           xl:w-[15rem] xl:mt-0 
+           lg:h-48 lg:w-[15rem] lg:mt-0
+            md:h-48 md:w-[15rem] md:mt-0
+             sm:h-40 sm:w-[18rem] sm:mt-16 
+             max-sm:h-40 max-sm:w-[18rem] max-sm:mt-16">
+            <p>
+              We love to create, we love  to solve, we love  to collaborate, and we love to turn amazing ideas into reality. We’re here to partner with you through every step of the process and  know that relationships are the most<br> important things we build.
+            </p>
+          </div>
+         </div>
+         <div  class=" 2xl:ml-20 2xl:flex 2xl:pt-[40rem] 
+         xl:ml-40 xl:flex xl:pt-[30rem] 
+          lg:ml-20 lg:flex lg:pt-[30rem] 
+          md:ml-20 md:flex md:pt-[30rem]
+           sm:ml-20 sm:flex sm:absolute sm:top-[45rem] 
+           max-sm:ml-20 max-sm:flex max-sm:absolute max-sm:top-[48rem]">
+          <i class="ri-circle-fill text-orange-600 relative "></i>
+          <h1 id="Fe">FEATURED PROJECTS</h1>
+         </div>
+     </div>
+     <div id="page3" class="2xl:min-w-[100%] 2xl:h-fit 2xl:overflow-hidden 2xl:relative 2xl:-top-8 2xl:bg-stone-200 
+     xl:min-w-[100%] xl:h-fit xl:overflow-hidden xl:relative xl:-top-8 xl:bg-stone-200
+      lg:min-w-[100%] lg:h-fit lg:overflow-hidden lg:relative lg:-top-8 lg:bg-stone-200 
+      md:min-w-[100%] md:h-fit md:overflow-hidden md:relative md:-top-8 md:bg-stone-200
+       sm:min-w-[100%] sm:h-fit sm:z-50 sm:overflow-hidden sm:relative sm:-top-8 sm:bg-stone-200
+       max-sm:min-w-[100%] max-sm:h-fit max-sm:z-50 max-sm:overflow-hidden max-sm:relative max-sm:-top-8 max-sm:bg-stone-200">
+
+      <div id="elementContainer1" class="2xl:block xl:block lg:block md:hidden max-sm:hidden sm:hidden">
+        
+        <div  class="group h-32 w-[100%] relative flex border-b-[0.1px] border-b-black border-t-black" id="no1" >
+          <div id="overlay" class="group-hover:top-0 w-full h-32 bg-orange-400 absolute transition-all duration-300 -top-[105%]"></div>
+          <h1 id="text1" class="text-[4vw] absolute p-4 tracking-tighter font-bold font-sans">Play Newe Kidvision</h1>
+          <div id="hii" class=" absolute left-[92%] top-10 ">
+            <h1 id="nike" class="font-medium">NIKE</h1>
+            <h1 class="font-normal text-stone-400">Environment</h1></div>
+
+        </div>
+      <div class="group h-32 w-full relative overflow-hidden border-b-[0.1px] border-black data-autoplay" class="ele" id="no2">
+        <div class="group-hover:top-0 w-full h-32 bg-orange-400 absolute transition-all duration-300 -top-[110%]"></div>
+        <h1 id="text2" class="text-[4vw] absolute p-4 tracking-tighter font-bold font-sans">Makers Studio HOI</h1>
+        <div class=" absolute left-[92%] top-10 "><h1 class="font-medium">NIKE</h1><h1 class="font-normal text-stone-400">Experiential</h1></div>
+
+      </div>
+      
+      <div class="group h-32 w-full relative overflow-hidden border-b-[0.1px] border-black" id="no3">
+        <div class="group-hover:top-0 w-full h-32 bg-orange-400 absolute transition-all duration-300 -top-[110%]" ></div>
+        <h1 id="text3" class="text-[4vw] absolute p-4 tracking-tighter font-bold font-sans">Capezio NYC Flagship</h1>
+        <div class=" absolute left-[92%] top-10 "><h1 class="font-medium">CAPEZIO</h1><h1 class="font-normal text-stone-400">Environment</h1></div>
+
+      </div>
+      <div class="group h-32 w-full relative overflow-hidden border-b-[0.1px] border-black" id="no4">
+        <div class="group-hover:top-0 w-full h-32 bg-orange-400 absolute transition-all duration-300 -top-[110%]"></div>
+        <h1 id="text4" class="text-[4vw] absolute p-4 tracking-tighter font-bold font-sans">Kelce Super Bowl party</h1>
+        <div class=" absolute left-[90%] top-10 "><h1 class="font-medium">WAVE SPORTS ENTERTINMENT</h1><h1 class="font-normal text-stone-400">Environment</h1></div>
+
+      </div>
+      <div class="group h-32 w-full relative overflow-hidden border-b-[0.1px] border-black" id="no5">
+        <div class="group-hover:top-0 w-full h-32 bg-orange-400 absolute transition-all duration-300 -top-[110%]"></div>
+        <h1 id="text5" class="text-[4vw] absolute p-4 tracking-tighter font-bold font-sans">Converse SoHo</h1>
+        <div class=" absolute left-[92%] top-10 "><h1 class="font-medium">COVERSE</h1><h1 class="font-normal text-stone-400">Environment</h1></div>
+        
+      </div>
+      <div class="group h-32 w-full relative overflow-hidden border-b-[0.1px] border-black" id="no6">
+        <div class="group-hover:top-0 w-full h-32 bg-orange-400 absolute transition-all duration-300 -top-[110%]"></div>
+        <h1 id="text6" class="text-[4vw] absolute p-4 tracking-tighter font-bold font-sans">NYFW Popup</h1>
+        <div class=" absolute left-[92%] top-10 "><h1 class="font-medium">AFTERPAY</h1><h1 class="font-normal text-stone-400">Experiential</h1></div>
+
+      </div>
+      <div class="group h-32 w-full relative overflow-hidden border-b-[0.1px] border-black" id="no7">
+        <div class="group-hover:top-0 w-full h-32 bg-orange-400 absolute transition-all duration-300 -top-[110%]"></div>
+        <h1 id="text7" class="text-[4vw] absolute p-4 tracking-tighter font-bold font-sans">50th Anniversary</h1>
+        <div class=" absolute left-[92%] top-10 "><h1 class="font-medium">NIKE</h1><h1 class="font-normal text-stone-400">Environment</h1></div>
+        
+      </div>
+      <div class="group h-32 w-full relative overflow-hidden border-b-[0.1px] border-black"  id="no8">
+        <div class="group-hover:top-0 w-full h-32 bg-orange-400 absolute transition-all duration-300 -top-[110%]"></div>
+        <h1 id="text8" class="text-[4vw] absolute p-4 tracking-tighter font-bold font-sans ">Carmelo Anthony 7pm In Brooklyn Set</h1>
+        <div class=" absolute left-[90%] top-10 ">
+          <h1 class="font-medium">WAVE SPORTS ENVIRONMENTS</h1>
+          <h1 class="font-normal text-stone-400">Environment</h1>
+        </div>
+      </div>
+</div>
+      <div id="elementContainer2" class="2xl:hidden xl:hidden lg:hidden sm:block max-sm:hidden md:block md:relative md:h-[250vh] sm:h-[200vh] sm:w-full sm:pb-96 max-sm:h-[250vh] max-sm:w-full max-sm:pb-96">
+        
+        <div  class="group group md:h-[34rem] md:w-[100%] md:pl-8 md:relative md:flex
+         md:flex-col md:border-b-[0px] md:bg-stone-200 md:border-b-black
+           sm:h-[34rem] sm:w-[100%] sm:pl-8 sm:relative sm:flex sm:flex-col sm:border-b-[0px]  sm:bg-stone-200 sm:border-b-black
+           max-sm:h-[35rem] max-sm:w-fit max-sm:pl-8 max-sm:relative max-sm:top-40 max-sm:flex max-sm:flex-col max-sm:-mt-20 max-sm:overflow-hidden  max-sm:border-b-[0px] max-sm:bg-red-500 max-sm:border-b-black "id="no1">
+          
+           <div class="md:w-[20.2rem] md:overflow-hidden  md:h-[70vw]
+          2xl:hidden xl:hidden lg:hidden
+          md:bg-stone-200 md:rounded-xl
+           sm:w-[20.2rem] sm:overflow-hidden sm:h-[70vw]
+          sm:bg-stone-200 sm:rounded-xl 
+          max-sm:w-[20.2rem] max-sm:overflow-hidden max-sm:-mt-20 max-sm:h-[70vw]
+          max-sm:bg-stone-200 max-sm:rounded-xl">         
+            <div id="md-Dive" class="md:w-96 md:overflow-hidden md:h-[50vw] 2xl:hidden xl:hidden  lg:hidden md:rounded-xl sm:w-72  sm:overflow-hidden sm:h-[50vw] sm:rounded-xl max-sm:w-72  max-sm:overflow-hidden max-sm:h-[50vw] max-sm:rounded-xl">
+              <video class="object-cover h-[50vw] " src="elemV.mp4" autoplay muted loop></video>
+            <div class=" md:w-72 md:absolute md:top-[25rem] md:h-12 md:bg-stone-200 sm:w-96 sm:absolute sm:top-[21rem] sm:h-12 sm:bg-stone-200 max-sm:w-96 max-sm:absolute max-sm:top-[21rem] max-sm:h-12 max-sm:bg-stone-200">
+              <h1 class="text-3xl font-bold ml-2">Play New Kidvision</h1>
+          <div id="hii" class=" md:absolute md:-bottom-8 md:left-7 sm:absolute sm:-bottom-8 sm:left-2 sm:text-sm max-sm:absolute max-sm:-bottom-8 max-sm:left-2 max-sm:text-sm">
+            <h1 id="nike" class="font-medium">NIKE</h1>
+            <h1 class="font-normal text-stone-400">Environment</h1></div>
+            </div>
+          </div>
+        </div>
+      
+        <div class="md:w-[20.2rem] md:overflow-hidden md:h-[70vw] md:ml-96 md:-mt-[34rem]
+         2xl:hidden md:bg-stone-200 
+         sm:w-[20.2rem] sm:overflow-hidden sm:h-[70vw] sm:pl-5 sm:ml-72 sm:-mt-[28rem] sm:bg-stone-200 max-sm:w-[20.2rem] max-sm:overflow-hidden max-sm:h-[70vw] max-sm:pl-5 max-sm:ml-72 max-sm:-mt-[29rem] max-sm:bg-stone-200 xl:hidden  lg:hidden md:rounded-3xl">         
+          <div id="md-Dive" class="md:w-96 md:overflow-hidden md:h-[50vw] 2xl:hidden xl:hidden
+            lg:hidden md:rounded-xl sm:w-72 sm:overflow-hidden sm:h-[50vw] sm:rounded-xl max-sm:w-72 max-sm:overflow-hidden max-sm:h-[50vw] max-sm:rounded-xl">
+            <video class="object-cover h-[50vw] " src="elemV11.mp4" autoplay muted loop></video>
+          <div class=" md:w-96 md:absolute md:top-[25rem] md:h-12 md:bg-stone-200 sm:w-96 sm:absolute sm:top-[21rem] sm:h-12 sm:bg-stone-200 max-sm:w-96 max-sm:absolute max-sm:top-[21rem] max-sm:h-12 max-sm:bg-stone-200">
+            <h1 class="text-3xl font-bold ml-2">Makers Studio HOI</h1>
+        <div id="hii" class=" md:absolute md:-bottom-8 md:left-7 sm:absolute sm:-bottom-8 sm:left-2 sm:text-sm max-sm:absolute max-sm:-bottom-8 max-sm:left-2 max-sm:text-sm">
+          <h1 id="nike" class="font-medium">NIKE</h1>
+          <h1 class="font-normal text-stone-400">Experiential</h1></div>
+          </div>
+        </div>
+      </div>
+    </div>
+          
+      <div class="group group  md:h-48 md:w-full md:relative md:flex md:border-b-[0px] md:mt-16 md:border-b-black md:data-autoplay
+         sm:h-[50vw] sm:bg-stone-200 sm:w-full sm:relative sm:flex sm:border-b-[0px] sm:border-b-black 
+         max-sm:h-[50vw] max-sm:bg-stone-200 max-sm:w-full max-sm:relative max-sm:flex max-sm:border-b-[0px] max-sm:border-b-black " class="ele" id="no2">
+        <div class="2xl:group-hover:top-0 2xl:w-full 2xl:h-32 2xl:bg-orange-400 2xl:absolute 2xl:transition-all 2xl:duration-300 2xl:-top-[110%]
+         xl:group-hover:top-0 xl:w-full xl:h-32 xl:bg-orange-400 xl:absolute xl:transition-all xl:duration-300 xl:-top-[110%] 
+         lg:group-hover:top-0 lg:w-full lg:h-32 lg:bg-orange-400 lg:absolute lg:transition-all lg:duration-300 lg:-top-[110%]
+         md:h-[30rem] md:bg-stone-200 md:w-[100%] md:pl-8 md:relative md:flex md:flex-col md:border-b-[0px] md:border-b-black
+         sm:h-[29rem] sm:w-[100%] sm:pl-8 sm:bg-stone-200 sm:-top-28 sm:relative sm:flex sm:flex-col sm:border-b-[0px]  sm:border-b-black
+         max-sm:h-[29rem] max-sm:w-[100%] max-sm:pl-8 max-sm:bg-stone-200 max-sm:-top-28 max-sm:relative max-sm:flex max-sm:flex-col max-sm:border-b-[0px]  max-sm:border-b-black">
+          <div class="md:w-[20.2rem] md:overflow-hidden md:h-[70vw] 2xl:hidden md:bg-stone-200 
+          sm:w-[20.2rem] sm:overflow-hidden sm:h-[70vw] sm:bg-stone-200 xl:hidden  lg:hidden md:rounded-xl sm:rounded-xl
+          max-sm:w-[20.2rem] max-sm:overflow-hidden max-sm:h-[70vw] max-sm:bg-stone-200 max-sm:rounded-xl">         
+            <div id="md-Dive" class="md:w-96 md:overflow-hidden md:h-[50rem] 2xl:hidden xl:hidden  lg:hidden md:rounded-xl 
+            sm:w-72 sm:overflow-hidden sm:h-[50vw] sm:rounded-xl
+            max-sm:w-72 max-sm:overflow-hidden max-sm:h-[50vw] max-sm:rounded-xl">
+              <video class="object-cover h-[50vw] " src="elemV3.mp4" autoplay muted loop></video>
+            <div class=" md:w-96 md:absolute md:top-[25rem] md:h-12 md:bg-stone-200 
+            sm:w-fit sm:absolute sm:top-[21rem] sm:h-12 sm:bg-stone-200
+            max-sm:w-fit max-sm:absolute max-sm:top-[21rem] max-sm:h-12 max-sm:bg-stone-200">
+              <h1 class="text-3xl font-bold ml-1">
+                Capezio NYC Flag
+              </h1>
+          <div id="hii" class=" md:absolute md:-bottom-8 md:left-7 sm:absolute sm:-bottom-8 sm:left-2  sm:text-sm max-sm:absolute max-sm:-bottom-8 max-sm:left-2  max-sm:text-sm">
+            <h1 id="nike" class="font-medium">WAVE SPORTS ENTERTINMENT</h1>
+            <h1 class="font-normal text-stone-400">Environment</h1></div>
+            </div>
+          </div>
+        </div>
+      
+        <div class="md:w-[20.2rem] md:overflow-hidden md:h-[70vw] md:ml-96 md:absolute  md:bg-stone-200
+         xl:hidden 2xl:hidden lg:hidden 
+         md:rounded-3xl sm:w-[20.2rem] sm:overflow-hidden sm:h-[70vw] sm:ml-80 sm:absolute sm:-top-0  sm:bg-stone-200 max-sm:w-[20.2rem] max-sm:overflow-hidden max-sm:h-[70vw] max-sm:ml-80 max-sm:absolute max-sm:-top-0  max-sm:bg-stone-200">         
+          <div id="md-Dive" class="md:w-96 md:overflow-hidden md:h-[50vw] 2xl:hidden xl:hidden  lg:hidden md:rounded-xl sm:w-72 sm:overflow-hidden sm:h-[50vw] sm:rounded-xl max-sm:w-72 max-sm:overflow-hidden max-sm:h-[50vw] max-sm:rounded-xl">
+            <video class="object-cover h-[50vw] " src="elemV4.mp4" autoplay muted loop></video>
+          <div class=" md:w-96 md:absolute md:top-[25rem] md:h-12 md:bg-stone-200 sm:w-96 sm:absolute sm:top-[21rem] sm:h-12 sm:bg-stone-200 max-sm:w-96 max-sm:absolute max-sm:top-[21rem] max-sm:h-12 max-sm:bg-stone-200">
+            <h1 class="text-3xl font-bold ml-7">
+              Kelce111 Super Bowl
+            </h1>
+        <div id="hii" class=" md:absolute md:-bottom-8 md:left-7  sm:absolute sm:-bottom-8 sm:left-2 sm:text-sm max-sm:absolute max-sm:-bottom-8 max-sm:left-2 max-sm:text-sm">
+          <h1 id="nike" class="font-medium">AFTERPAY</h1>
+          <h1 class="font-normal text-stone-400">Experiential</h1></div>
+          </div>
+        </div>
+      </div>
+
+        </div>
+      </div>
+      
+      <div class="group group 2xl:h-32 2xl:w-full 2xl:overflow-hidden 2xl:relative 2xl:flex 2xl:border-b-[0.1px] 2xl:border-b-black 2xl:data-autoplay
+       xl:h-32 xl:w-full xl:relative xl:flex xl:border-b-[0.1px] xl:border-b-black xl:data-autoplay 
+       lg:h-32 lg:w-full lg:relative lg:flex lg:border-b-[0.1px] lg:border-b-black lg:data-autoplay
+        md:h-32 md:w-full  md:relative md:flex md:border-b-[0px] md:border-b-black md:data-autoplay md:mt-96
+        sm:h-32 sm:w-full sm:relative sm:flex sm:border-b-[0px] sm:border-b-black sm:data-autoplay sm:mt-96
+        max-sm:h-32 max-sm:w-full max-sm:relative max-sm:flex max-sm:border-b-[0px] max-sm:border-b-black max-sm:data-autoplay max-sm:mt-96" id="no3">
+        <div class="2xl:group-hover:top-0 2xl:w-full 2xl:h-32 2xl:bg-orange-400 2xl:absolute 2xl:transition-all 2xl:duration-300 2xl:-top-[110%]
+         xl:group-hover:top-0 xl:w-full xl:h-32 xl:bg-orange-400 xl:absolute xl:transition-all xl:duration-300 xl:-top-[110%]
+          lg:group-hover:top-0 lg:w-full lg:h-32 lg:bg-orange-400 lg:absolute lg:transition-all lg:duration-300 lg:-top-[110%]
+          md:h-[30rem] md:mt-48 md:w-[100%] md:pl-8 md:relative md:flex md:flex-col md:border-b-0 md:bg-stone-200 md:border-b-black
+          sm:h-[34rem] sm:w-[100%] sm:pl-4 sm:relative sm:bg-stone-200 sm:flex sm:flex-col sm:-top-96 sm:border-b-0 sm:border-b-black
+          max-sm:h-[34rem] max-sm:w-[100%] max-sm:pl-4 max-sm:relative max-sm:bg-stone-200 max-sm:flex max-sm:flex-col max-sm:-top-96 max-sm:border-b-0 max-sm:border-b-black" >
+          <div class="md:w-[20.2rem] md:overflow-hidden md:h-[50vw] md:mt-4 2xl:hidden md:bg-stone-200 xl:hidden  lg:hidden md:rounded-xl
+           sm:w-[20.2rem] sm:overflow-hidden sm:h-[70vw] sm:bg-stone-200 max-sm:w-[20.2rem] max-sm:overflow-hidden max-sm:h-[70vw] max-sm:bg-stone-200">         
+            <div id="md-Dive" class="md:w-96 md:overflow-hidden md:h-[50vw] 2xl:hidden xl:hidden  lg:hidden md:rounded-xl sm:w-72 sm:overflow-hidden sm:h-[50vw] sm:rounded-xl">
+              <video class="object-cover h-[50vw] " src="elemV5.mp4" autoplay muted loop></video>
+            <div class="2xl:w-96 2xl:absolute 2xl:top-[25rem] 2xl:h-12 2xl:bg-stone-200 
+            xl:w-96 xl:absolute xl:top-[25rem] xl:h-12 xl:bg-stone-200 
+            lg:w-96 lg:absolute lg:top-[25rem] lg:h-12 lg:bg-stone-200 
+            md:w-96 md:absolute md:top-[25.5rem] md:h-12 md:bg-stone-200 
+            sm:w-96 sm:absolute sm:top-[21rem]  sm:h-12 sm:bg-stone-200 max-sm:w-96 max-sm:absolute max-sm:top-[21rem] max-sm:h-12 max-sm:bg-stone-200">
+              <h1 class="text-3xl font-bold ml-0">Carmelo Anthony 7 </h1>
+          <div id="hii" class=" md:absolute md:-bottom-8 md:left-7 sm:absolute sm:-bottom-8 sm:left-5 sm:text-sm max-sm:absolute max-sm:-bottom-8 max-sm:left-5 max-sm:text-sm">
+            <h1 id="nike" class="font-medium">WAVE SPORTS ENVIRONMENTS</h1>
+            <h1 class="font-normal text-stone-400">Experiential</h1>
+    </div>
+            </div>
+          </div>
+        </div>
+      
+        
+    </div>
+    <div class="md:w-[20.2rem] md:overflow-hidden md:h-[70vw] md:ml-96 md:mt-[12.9rem]  md:bg-stone-200
+         xl:hidden 2xl:hidden lg:hidden 
+         md:rounded-3xl sm:w-[20.2rem] sm:overflow-hidden sm:h-[70vw] sm:ml-80 sm:absolute sm:-top-[382px]  sm:bg-stone-200 max-sm:w-[20.2rem] max-sm:overflow-hidden max-sm:h-[70vw] max-sm:ml-80 max-sm:absolute max-sm:-top-[382px]  max-sm:bg-stone-200">         
+          <div id="md-Dive" class="md:w-96 md:overflow-hidden md:h-[50vw] 2xl:hidden xl:hidden  lg:hidden md:rounded-xl sm:w-72 sm:overflow-hidden sm:h-[50vw] sm:rounded-xl max-sm:w-72 max-sm:overflow-hidden max-sm:h-[50vw] max-sm:rounded-xl">
+            <video class="object-cover h-[50vw] " src="elemV4.mp4" autoplay muted loop></video>
+          <div class=" md:w-96 md:absolute md:top-[25rem] md:h-12 md:bg-stone-200 sm:w-96 sm:absolute sm:top-[21rem] sm:h-12 sm:bg-stone-200 max-sm:w-96 max-sm:absolute max-sm:top-[21rem] max-sm:h-12 max-sm:bg-stone-200">
+            <h1 class="text-3xl font-bold ml-2">
+              Kelce Super Bowl
+            </h1>
+        <div id="hii" class=" md:absolute md:-bottom-8 md:left-7 sm:absolute sm:-bottom-8 sm:left-3 sm:text-sm max-sm:absolute max-sm:-bottom-8 max-sm:left-3 max-sm:text-sm">
+          <h1 id="nike" class="font-medium">AFTERPAY</h1>
+          <h1 class="font-normal text-stone-400">Experiential</h1>
+        </div>
+          </div>
+        </div>
+      </div>
+      
+      </div>
+        </div>
+
+        <div id="elementContainer3" class="2xl:hidden xl:hidden lg:hidden sm:hidden max-sm:block md:hidden max-sm:px-12 max-sm:h-fit max-sm:bg-stone-200 max-sm:w-fit">
+        
+          <div  class="group group 
+             max-sm:h-full max-sm:w-fit max-sm:ml-[10%] max-sm:flex max-sm:flex-col  max-sm:overflow-hidden  max-sm:border-b-[0px] max-sm:bg-stone-200 max-sm:border-b-black "id="no1">
+             <div class="
+            max-sm:w-fit max-sm:overflow-hidden max-sm:h-fit
+            max-sm:bg-stone-200 max-sm:rounded-xl">         
+              <div id="md-Dive" class="max-sm:w-fit  max-sm:overflow-hidden max-sm:h-fit max-sm:bg-stone-200 max-sm:rounded-xl">
+                <video class="object-cover h-[90vw] w-[20.2rem] " src="elemV.mp4" autoplay muted loop></video>
+              <div class="  max-sm:w-fit max-sm:mt-2 max-sm:h-fit max-sm:bg-stone-200">
+                <h1 class="text-3xl font-bold ml-2">Play New Kidvision</h1>
+            <div id="hii" class="max-sm:text-sm">
+              <h1 id="nike" class="font-medium">NIKE</h1>
+              <h1 class="font-normal text-stone-400">Environment</h1></div>
+              </div>
+            </div>
+          </div>
+          <div class="max-sm:w-fit max-sm:mt-4  max-sm:overflow-hidden max-sm:h-fit max-sm:bg-stone-200">         
+            <div id="md-Dive" class="max-sm:w-fit max-sm:overflow-hidden max-sm:h-fit max-sm:rounded-xl">
+              <video class="object-cover h-[90vw] w-[20.2rem] " src="elemV11.mp4" autoplay muted loop></video>
+            <div class=" max-sm:w-fit max-sm:mt-2 max-sm:h-fit max-sm:bg-stone-200">
+              <h1 class="text-3xl font-bold ml-2">Makers Studio HOI</h1>
+          <div id="hii" class="  max-sm:left-2 max-sm:text-sm">
+            <h1 id="nike" class="font-medium">NIKE</h1>
+            <h1 class="font-normal text-stone-400">Experiential</h1></div>
+            </div>
+          </div>
+        </div>
+      </div>
+            
+        <div class="group group
+        max-sm:h-full max-sm:w-fit max-sm:ml-[10%]  max-sm:flex max-sm:flex-col  max-sm:overflow-hidden  max-sm:border-b-[0px] max-sm:bg-stone-200 max-sm:border-b-black " id="no2">
+          <div class="max-sm:h-fit max-sm:w-fit  max-sm:bg-stone-200 max-sm:flex max-sm:flex-col max-sm:border-b-[0px]  max-sm:border-b-black">
+            <div class=" max-sm:w-fit max-sm:overflow-hidden max-sm:h-fit max-sm:bg-stone-200 max-sm:rounded-xl">         
+              <div id="md-Dive" class="   max-sm:w-fit max-sm:overflow-hidden max-sm:h-fit max-sm:rounded-xl">
+                <video class="object-cover h-[90vw] w-[20.2rem] " src="elemV3.mp4" autoplay muted loop></video>
+              <div class="
+              max-sm:w-fit max-sm:mt-2 max-sm:h-fit max-sm:bg-stone-200">
+                <h1 class="text-3xl font-bold ml-1">
+                  Capezio NYC Flag
+                </h1>
+            <div id="hii" class=" max-sm:left-2  max-sm:text-sm">
+              <h1 id="nike" class="font-medium">WAVE SPORTS ENTERTINMENT</h1>
+              <h1 class="font-normal text-stone-400">Environment</h1></div>
+              </div>
+            </div>
+          </div>
+          <div class="group group
+        max-sm:h-full max-sm:w-fit max-sm:mt-5 max-sm:flex max-sm:flex-col  max-sm:overflow-hidden  max-sm:border-b-[0px] max-sm:bg-stone-200 max-sm:border-b-black " id="no2">
+          <div class="max-sm:h-fit max-sm:w-fit  max-sm:bg-stone-200 max-sm:flex max-sm:flex-col max-sm:border-b-[0px]  max-sm:border-b-black">
+            <div class=" max-sm:w-fit max-sm:overflow-hidden max-sm:h-fit max-sm:bg-stone-200 max-sm:rounded-xl">         
+              <div id="md-Dive" class="   max-sm:w-fit max-sm:overflow-hidden max-sm:h-fit max-sm:rounded-xl">
+                <video class="object-cover h-[90vw] w-[20.2rem] " src="elemV4.mp4" autoplay muted loop></video>
+              <div class="
+              max-sm:w-fit max-sm:mt-2 max-sm:h-fit max-sm:bg-stone-200">
+              <h1 class="text-3xl font-bold">
+                Kelce Super Bowl
+              </h1>
+          <div id="hii" class="max-sm:left-2 max-sm:text-sm">
+            <h1 id="nike" class="font-medium">AFTERPAY</h1>
+            <h1 class="font-normal text-stone-400">Experiential</h1></div>
+            </div>
+          </div>
+        </div>
+          </div>
+        </div>
+
+        
+        <div class="group group
+        max-sm:h-full max-sm:w-fit max-sm:mt-5 max-sm:flex max-sm:flex-col  max-sm:overflow-hidden  max-sm:border-b-[0px] max-sm:bg-stone-200 max-sm:border-b-black " id="no2">
+          <div class="max-sm:h-fit max-sm:w-fit  max-sm:bg-stone-200 max-sm:flex max-sm:flex-col max-sm:border-b-[0px]  max-sm:border-b-black">
+            <div class=" max-sm:w-fit max-sm:overflow-hidden max-sm:h-fit max-sm:bg-stone-200 max-sm:rounded-xl">         
+              <div id="md-Dive" class="   max-sm:w-fit max-sm:overflow-hidden max-sm:h-fit max-sm:rounded-xl">
+                <video class="object-cover h-[90vw] w-[20.2rem] " src="elemV5.mp4" autoplay muted loop></video>
+              <div class="
+              max-sm:w-fit max-sm:mt-2 max-sm:h-fit max-sm:bg-stone-200">
+
+                <h1 class="text-3xl font-bold ml-0">Carmelo Anthony 7 </h1>
+            <div id="hii" class=" max-sm:left-5 max-sm:text-sm">
+              <h1 id="nike" class="font-medium">WAVE SPORTS ENVIRONMENTS</h1>
+              <h1 class="font-normal text-stone-400">Experiential</h1>
+      </div>
+              </div>
+            </div>
+          </div>    
+      </div>
+      <div class="group group
+        max-sm:h-full max-sm:w-fit max-sm:mt-2 max-sm:flex max-sm:flex-col  max-sm:overflow-hidden  max-sm:border-b-[0px] max-sm:bg-blue-400 max-sm:border-b-black " id="no2">
+          <div class="max-sm:h-fit max-sm:w-fit  max-sm:bg-stone-200 max-sm:flex max-sm:flex-col max-sm:border-b-[0px]  max-sm:border-b-black">
+            <div class=" max-sm:w-fit max-sm:overflow-hidden max-sm:h-fit max-sm:bg-stone-200 max-sm:rounded-xl">         
+              <div id="md-Dive" class="   max-sm:w-fit max-sm:overflow-hidden max-sm:h-fit max-sm:rounded-xl">
+                <video class="object-cover h-[90vw] w-[20.2rem] " src="elemV9.mp4" autoplay muted loop></video>
+              <div class="
+              max-sm:w-fit max-sm:h-fit max-sm:bg-stone-200">
+
+              <h1 class="text-3xl font-bold ml-2">
+                Kelce Super Bowl
+              </h1>
+          <div id="hii" class="max-sm:text-sm">
+            <h1 id="nike" class="font-medium">AFTERPAY</h1>
+            <h1 class="font-normal text-stone-400">Experiential</h1>
+          </div>
+            </div>
+          </div>
+        </div>
+        
+        </div>
+          </div>
+      </div>
+      </div>
+</div>
+
+     </div>
+
+
+     <div class="2xl:h-[150vh] 2xl:w-[100%] 2xl:-mt-[31.9px] 2xl:bg-stone-200 2xl:block
+                xl:h-[150vh] xl:w-[100%] xl:-mt-[31.9px] xl:bg-stone-200 xl:block
+                lg:h-[150vh] lg:w-[100%] lg:-mt-[32.9px] lg:bg-stone-200 lg:block
+                md:h-[200vh] md:w-[100%] md:-mt-[31.9px] md:px-3 md:bg-stone-200 md:block
+                sm:hidden max-sm:hidden">
+      <button class="2lg:border-[0.5px] 2xl:border-zinc-400 2xl:rounded-3xl 2xl:w-44 2xl:h-10 2xl:ml-10 
+      xl:border-[0.5px] xl:border-zinc-400 xl:rounded-3xl xl:w-44 xl:h-10 xl:ml-10 xl:mt-10 
+      lg:border-[0.5px] lg:border-zinc-400 lg:rounded-xl lg:w-44 lg:h-10 lg:ml-10 lg:mt-20 
+      md:border-[0.5px] md:border-zinc-400 md:rounded-xl md:w-44 md:h-10 md:ml-10 md:mt-10">All Projects <i class="ri-arrow-right-line"></i></button>
+      <div class="2xl:w-[100%] 2xl:absolute 2xl:h-[100vh] 2xl:p-8 
+       xl:absolute xl:h-[100vh] xl:p-8 xl:-mt-20
+       lg:w-[100%] lg:absolute lg:h-[100vh] lg:p-8
+        md:w-[100%] md:absolute md:h-[100vh]" id="page4">
+        <div class="2xl:w-[95vw] 2xl:h-[100vh] 2xl:ml-2 2xl:rounded-3xl 2xl:bg-black 2xl:mt-44 
+        xl:w-[95vw] xl:h-[100vh] xl:ml-2 xl:rounded-3xl xl:bg-black xl:mt-44
+         lg:w-[95vw] lg:h-[100vh] lg:ml-2 lg:rounded-3xl lg:bg-black lg:-mt-2 
+         md:w-[95vw] md:h-[100vh] md:ml-2 md:rounded-3xl md:bg-black md:mt-44" id="main2">
+            <div class="top-48 mb-8">
+              <div class="2xl:w-60 2xl:h-28 2xl:border-l-orange-600 2xl:border-2 2xl:border-r-0 2xl:border-t-0 2xl:border-b-0 2xl:text-right 2xl:text-pretty 2xl:absolute 2xl:left-[15%] 2xl:top-[30%]
+               xl:w-60 xl:h-28 xl:border-l-orange-600 xl:border-2 xl:border-r-0 xl:border-t-0 xl:border-b-0 xl:text-right xl:text-pretty xl:absolute xl:left-[15%] xl:top-[30%] 
+               lg:w-60 lg:h-28 lg:border-l-orange-600 lg:border-2 lg:border-r-0 lg:border-t-0 lg:border-b-0 lg:text-right lg:text-pretty lg:absolute lg:left-[15%] lg:top-[30%] 
+               md:w-60 md:h-28 md:border-l-orange-600 md:border-2 md:border-r-0 md:border-t-0 md:border-b-0 md:text-right md:text-pretty md:absolute md:left-[15%] md:top-[30%]">
+               <h1 class="2xl:text-[4vw] 2xl:ml-3 2xl:text-white 2xl:absolute 2xl:bottom-10 2xl:font-extrabold xl:text-[4vw] xl:ml-3 xl:text-white xl:absolute xl:bottom-10 xl:font-extrabold lg:text-[4vw] lg:ml-3 lg:text-white lg:absolute lg:bottom-10 lg:font-extrabold md:text-[4vw] md:ml-3 md:text-white md:absolute md:bottom-16 md:font-extrabold">
+                Desing</h1>
+              </div>
+              <div class="2xl:w-60 2xl:h-20 2xl:border-l-stone-700  2xl:border-2 2xl:border-r-0 2xl:border-t-0 2xl:border-b-0 2xl:text-right 2xl:text-pretty 2xl:absolute 2xl:left-[15%] 2xl:top-[39%]
+               xl:w-60 xl:h-20 xl:border-l-stone-700  xl:border-2 xl:border-r-0 xl:border-t-0 xl:border-b-0 xl:text-right xl:text-pretty xl:absolute xl:left-[15%] xl:top-[39%]
+                lg:w-60 lg:h-20 lg:border-l-stone-700  lg:border-2 lg:border-r-0 lg:border-t-0 lg:border-b-0 lg:text-right lg:text-pretty lg:absolute lg:left-[15%] lg:top-[36%]
+                 md:w-60 md:h-20 md:border-l-stone-700  md:border-2 md:border-r-0 md:border-t-0 md:border-b-0 md:text-right md:text-pretty md:absolute md:left-[15%] md:top-[36%]">
+                 <h1 class="2xl:text-[4vw] 2xl:ml-3 2xl:text-stone-600 2xl:absolute 2xl:bottom-1 2xl:font-extrabold 
+                 xl:text-[4vw] xl:ml-3 xl:text-stone-600 xl:absolute xl:bottom-1 xl:font-extrabold 
+                 lg:text-[4vw] lg:ml-3 lg:text-stone-600 lg:absolute lg:-bottom-1 lg:font-extrabold 
+                 md:text-[4vw] md:ml-3 md:text-stone-600 md:absolute md:bottom-8 md:font-extrabold">
+                  Projects</h1>
+                </div>
+              <div class="2xl:w-60 2xl:h-14 2xl:border-l-stone-700  2xl:border-2 2xl:border-r-0 2xl:border-t-0 2xl:border-b-0 2xl:text-right 2xl:text-pretty 2xl:absolute 2xl:left-[15%] 2xl:top-[50%]
+               xl:w-60 xl:h-14 xl:border-l-stone-700  xl:border-2 xl:border-r-0 xl:border-t-0 xl:border-b-0 xl:text-right xl:text-pretty xl:absolute xl:left-[15%] xl:top-[50%] 
+               lg:w-60 lg:h-14 lg:border-l-stone-700  lg:border-2 lg:border-r-0 lg:border-t-0 lg:border-b-0 lg:text-right lg:text-pretty lg:absolute lg:left-[15%] lg:top-[48%]
+                md:w-60 md:h-14 md:border-l-stone-700  md:border-2 md:border-r-0 md:border-t-0 md:border-b-0 md:text-right md:text-pretty md:absolute md:left-[15%] md:top-[48%]">
+                <h1 class="2xl:text-[4vw] 2xl:ml-3 2xl:text-stone-600 2xl:absolute 2xl:-top-[30px] 2xl:font-extrabold 
+                xl:text-[4vw] xl:ml-3 xl:text-stone-600 xl:absolute xl:-top-[15px] xl:font-extrabold 
+                lg:text-[4vw] lg:ml-3 lg:text-stone-600 lg:absolute lg:-top-[6px] lg:font-extrabold 
+                md:text-[4vw] md:ml-3 md:text-stone-600 md:absolute md:-top-[30px] md:font-extrabold  sm:text-[4vw] sm:ml-3 sm:text-stone-600 sm:absolute sm:-top-[30px] sm:font-extrabold">
+                  Execution</h1></div>
+              </div>
+              <div class="2xl:absolute 2xl:w-96 2xl:top-[65%] 2xl:left-[15%]
+               xl:absolute xl:top-[65%] xl:left-[15%]
+                lg:absolute lg:top-[65%] lg:left-[12%]
+                 md:absolute md:top-[65%] md:w-80 md:left-[3%]">
+                <p class="text-white text-wrap">
+                  Our team works with our clients to refine an idea and concept into an executable design. We create a final design that encompasses the brand narrative to bring stories to life and provide end-to-end design solutions from concept, design, andarchitectural drawings to 3D renderings.
+                </p>
+              </div>
+          <div class="w-[50%] h-[100vh] ml-[50%] bg-center bg-cover rounded-3xl" style="background-image: url('footerimg.webp');">
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="2xl:hidden xl:hidden lg:hidden md:hidden sm:block max-sm:block sm:w-[100%]  sm:h-[200vh] max-sm:w-fit  max-sm:h-fit" id="page4">
+    <div id="Mobile-Footer" class=" sm:h-[150vh] sm:w-[100%] sm:-mt-[31.9px] sm:block sm:overflow-hidden sm:px-3 sm:bg-stone-200 max-sm:h-[150vh] max-sm:w-[100%] max-sm:mt-[31.9px] max-sm:block max-sm:overflow-hidden max-sm:px-3 max-sm:bg-stone-200 2xl:hidden xl:hidden lg:hidden md:hidden">
+    <button class=" 
+    sm:border-[0.5px] sm:border-zinc-400 sm:rounded-xl sm:w-44 sm:h-10 sm:ml-10 sm:mt-0  max-sm:border-[0.5px] max-sm:border-zinc-400 max-sm:rounded-xl max-sm:w-44 max-sm:h-10 max-sm:ml-10 max-sm:mt-0  ">All Projects <i class="ri-arrow-right-line"></i></button>
+
+      <div class="   max-sm:w-[95vw] max-sm:h-[150vh] max-sm:ml-2 max-sm:rounded-3xl max-sm:bg-black max-sm:mt-20" id="main2">
+      
+          <div class="sm:relative sm:top-7 max-sm:relative max-sm:top-7">
+            <div class=" sm:w-60 sm:h-14 sm:border-l-orange-600 sm:border-r-0  sm:border-2  sm:border-t-0 sm:border-b-0 sm:text-right sm:text-pretty sm:absolute sm:left-[15%] sm:z-10 sm:top-[30%] max-sm:w-60 max-sm:h-14 max-sm:border-l-orange-600 max-sm:border-r-0  max-sm:border-2  max-sm:border-t-0 max-sm:border-b-0 max-sm:text-right max-sm:text-pretty max-sm:absolute max-sm:left-[15%] max-sm:z-10 max-sm:top-[30%]">
+             <h1 class=" sm:text-[5vw] sm:ml-3 sm:text-white sm:absolute sm:bottom-2 sm:font-extrabold max-sm:text-[5vw] max-sm:ml-3 max-sm:text-white max-sm:absolute max-sm:bottom-2 max-sm:font-extrabold">
+              Desing</h1>
+            </div>
+            <div class="   sm:w-60 sm:h-20 sm:border-l-stone-700  sm:border-2 sm:border-r-0 sm:border-t-0 sm:border-b-0 sm:text-right sm:text-pretty sm:absolute sm:left-[15%] sm:top-[46%] max-sm:w-60 max-sm:h-20 max-sm:border-l-stone-700  max-sm:border-2 max-sm:border-r-0 max-sm:border-t-0 max-sm:border-b-0 max-sm:text-right max-sm:text-pretty max-sm:absolute max-sm:left-[15%] max-sm:top-[46%]">
+               <h1 class=" sm:text-[5vw] sm:ml-3 sm:text-stone-600 sm:absolute sm:-bottom-2 sm:font-extrabold max-sm:text-[5vw] max-sm:ml-3 max-sm:text-stone-600 max-sm:absolute max-sm:-bottom-2 max-sm:font-extrabold">
+                Projects</h1>
+              </div>
+            <div class=" sm:w-60 sm:h-14 sm:border-l-stone-700  sm:border-2 sm:border-r-0 sm:border-t-0
+             sm:border-b-0 sm:text-right sm:text-pretty sm:absolute sm:left-[15%] sm:top-20 
+             max-sm:w-60 max-sm:h-14 max-sm:border-l-stone-700  max-sm:border-2 max-sm:border-r-0 max-sm:border-t-0
+             max-sm:border-b-0 max-sm:text-right max-sm:text-pretty max-sm:absolute max-sm:left-[15%] max-sm:top-20  ">
+              <h1 class="sm:text-[5vw] sm:ml-3 sm:text-stone-600 sm:absolute sm:font-extrabold max-sm:text-[5vw] max-sm:ml-3 max-sm:text-stone-600 max-sm:absolute max-sm:font-extrabold">
+                Execution</h1></div>
+            </div>
+            
+            <div class="max-sm:w-fit max-sm:h-fit max-sm:text-sm max-sm:absolute max-sm:mt-48 max-sm:px-10">
+              <p class="text-white text-wrap">
+                Our team works with our clients to refine an idea and concept into an executable design. We create a final design that encompasses the brand narrative to bring stories to life and provide end-to-end design solutions from concept, design, andarchitectural drawings to 3D renderings.
+              </p>
+            </div>
+            <div class=" 
+            max-sm:w-[100%] max-sm:h-[70vh] max-sm:absolute max-sm:mt-[21rem] max-sm:bg-center  max-sm:bg-cover max-sm:rounded-3xl" style="background-image: url('footerimg.webp');">
+           </div>
+      </div>
+    </div>
+  </div>
+
+
+    <div class="2xl:w-[100%] 2xl:h-[60Vh] 2xl:bg-stone-200 2xl:relative 2xl:-top-20 2xl:overflow-hidden 
+    xl:overflow-hidden xl:w-[100%] xl:h-[95Vh] xl:bg-stone-200 xl:relative xl:pt-20 
+    lg:w-[100%] lg:h-[75Vh] lg:bg-stone-200 lg:relative lg:pt-20 lg:overflow-hidden 
+    md:overflow-hidden md:w-[100%] md:h-[30%] md:bg-stone-200 md:relative md:pt-20
+     sm:w-[100%] sm:h-[100Vh] sm:bg-stone-200 sm:relative sm:pt-20 sm:overflow-hidden 
+     max-sm:w-[100%] max-sm:h-[100Vh] max-sm:bg-stone-200 max-sm:relative max-sm:pt-20 max-sm:overflow-hidden " id="Footer">
+      <div class=" 2xl:w-56 2xl:absolute 2xl:top-62 2xl:bg-red-500 2xl:ml-56 2xl:h-8 2xl:flex
+       xl:w-56 xl:absolute xl:-mt-20 xl:ml-36 xl:h-28 xl:flex 
+       lg:w-56 lg:absolute lg:-mt-20 lg:ml-36 lg:h-28 lg:flex
+        md:w-56 md:absolute md:-top-72 md:ml-36 md:h-28 md:flex md:bg-orange-500
+        sm:w-56 sm:absolute sm:mt-0 sm:ml-14 sm:h-28 sm:flex
+        max-sm:w-56 max-sm:absolute max-sm:mt-0 max-sm:ml-14 max-sm:h-28 max-sm:flex">
+         <img src="android-chrome-192x192.png" class="w-5 h-5">
+         <h1 class="px-4">Who work with us</h1>
+        </div>
+
+        <div class="swiper mySwiper 2xl:w-[120%] 2xl:h-[100%] 2xl:mt-10 2xl:relative 2xl:-top-44
+         xl:w-[120%] xl:h-[100%] xl:mt-40 
+         lg:w-[120%] lg:h-[170%] lg:mt-40 
+         md:w-[120%] md:h-[85vw] md:bg-stone-200 md:absolute md:-top-[30rem]
+         sm:w-[260%] sm:h-[50vh] sm:relative sm:top-18 
+         max-sm:w-fit max-sm:h-fit max-sm:relative max-sm:top-40 " id="hii">
+        <div class="w-28 h-28 rounded-full absolute bg-orange-600 z-50 -top-36 flex justify-center" id="cursor">
+          <i class="ri-code-s-fill absolute top-[35%] text-stone-200 text-4xl"></i>
+        </div>
+
+        <div id="Fmain1" class="swiper-wrapper  2xl:relative 2xl:space-x-5 2xl:-mt-10 flex  2xl:-right-[25.5rem] 
+         xl:relative xl:space-x-5 xl:flex  xl:-right-[25.5rem] 
+          lg:relative lg:space-x-5 lg:flex  lg:-right-[25.5rem] 
+          md:relative md:space-x-5 md:flex md:top-28 md:-right-[25.5rem] 
+          sm:relative sm:space-x-2 sm:flex  sm:right-[25.5rem] sm:top-16
+          max-sm:relative max-sm:space-x-2 max-sm:flex  max-sm:right-[25.5rem] max-sm:top-16">
+          <div class="swiper-slide 2xl:bg-stone-200  
+          2xl:w-[30%] 2xl:px-[2vw] 2xl:py-[10vw]  2xl:border-l-[0.5px] 2xl:border-black 2xl:border-t-0 2xl:border-b-0 2xl:border-r-0
+          xl:w-[30%] xl:px-[2vw] xl:py-[10vw]  xl:border-l-[0.5px] xl:border-black xl:border-t-0 xl:border-b-0 xl:border-r-0 
+          lg:bg-stone-200  lg:w-[30%] lg:px-[2vw] lg:py-[10vw] lg:border-l-[0.5px] lg:border-black lg:border-t-0 lg:border-b-0 lg:border-r-0
+          md:bg-stone-200  md:w-[30%] md:px-[2vw] md:py-[10vw]  md:border-l-[0.5px] md:border-black md:border-t-0 md:border-b-0 md:border-r-0
+          sm:bg-stone-200 sm:border-l-[0.5px] sm:border-black sm:border-t-0 sm:border-b-0 sm:border-r-0
+           max-sm:bg-emerald-600 max-sm:border-l-[0.5px] max-sm:border-black max-sm:border-t-0 max-sm:border-b-0 max-sm:border-r-0
+          " id="Felem1">
+          <div class="2xl:absolute 2xl:bg-red-500 2xl:top-0 2xl:w-60 xl:absolute xl:top-10 xl:w-60 lg:absolute lg:top-10 lg:w-60 md:absolute md:top-[18.2rem] md:w-60  ">
+            <img class="sm:ml-8 sm:w-36 sm:h-36 2xl:hidden xl:hidden lg:hidden max-sm:ml-8 max-sm:w-36 max-sm:h-36 md:-mt-7 2xl:mt-10" src="Fimg2.svg" alt="Nike">
+            <img src="Fimg2.svg" class="2xl:block 2xl:-mt-20 xl:block  lg:block lg:absolute lg:top-14 lg:w-52 lg:h-36 2xl:absolute sm:hidden max-sm:hidden md:hidden" alt="IMG">
+
+            <p class="2xl:text-left 2xl:text-[15px] 2xl:mt-[5rem]
+             xl:text-left xl:text-[15px] xl:mt-[10.7rem]
+             lg:text-left lg:text-[15px] lg:mt-40
+             md:text-left md:text-[15px] 
+             sm:text-left sm:text-[13px] sm:ml-2 sm:-mt-6
+             max-sm:text-left max-sm:text-[13px] max-sm:ml-2 max-sm:-mt-6">
+              Retained Production support across  retail and events in NY, CHI, LA. Creative Design, Design Management, Production/Project Management, and execution of work from concept to installation across the Country.    
+            </p>   
+        </div>
+      </div>
+          <div class="swiper-slide 2xl:bg-stone-200  2xl:w-[30%] 2xl:px-[2vw] 2xl:py-[10vw]  2xl:border-l-[0.5px] 2xl:border-black 2xl:border-t-0 2xl:border-b-0 2xl:border-r-0
+          xl:w-[30%] xl:px-[2vw] xl:py-[10vw]  xl:border-l-[0.5px] xl:border-black xl:border-t-0 xl:border-b-0 xl:border-r-0 
+          lg:bg-stone-200  lg:w-[30%] lg:px-[2vw] lg:py-[10vw]  lg:border-l-[0.5px] lg:border-black lg:border-t-0 lg:border-b-0 lg:border-r-0
+          md:bg-stone-200  md:w-[30%] md:px-[2vw] md:py-[10vw]  md:border-l-[0.5px] md:border-black md:border-t-0 md:border-b-0 md:border-r-0
+          sm:bg-stone-200 sm:border-l-[0.5px] sm:border-black sm:border-t-0  sm:border-b-0 sm:border-r-0 
+          max-sm:bg-stone-200 max-sm:border-l-[0.5px] max-sm:border-black max-sm:border-t-0  max-sm:border-b-0 max-sm:border-r-0" id="Felem1">
+            <div class="2xl:absolute 2xl:bg-green-700 2xl:w-60 2xl:top-0 xl:absolute xl:top-10 lg:absolute lg:top-20 md:absolute md:top-[16.5rem] ">
+            <img src="Fimg3.png"  class="sm:ml-0 sm:w-52 2xl:hidden xl:hidden lg:hidden sm:h-36 max-sm:ml-0 max-sm:w-52 max-sm:h-36" alt="Nike">
+            <img src="Fimg3.png" class="2xl:block 2xl:-mt-24 xl:block  lg:block lg:absolute lg:top-5 lg:w-52 lg:h-36 sm:hidden max-sm:hidden md:hidden" alt="IMG">
+            <p class="2xl:text-left 2xl:text-[15px] 2xl:mt-16
+            xl:text-left xl:text-[15px]
+            lg:text-left lg:text-[15px] lg:mt-36
+            md:text-left md:text-[15px] 
+            sm:text-left sm:text-[13px] sm:ml-2 sm:-mt-6 
+            max-sm:text-left max-sm:text-[13px] max-sm:ml-2 max-sm:-mt-6">
+              Creative Concepting, Design, Design Management, Project Management, and execution of work from concept to installation across the Country. Cross functional communication and management of third party partners.            </p>
+            </div>
+          </div>
+          <div class="swiper-slide text-[18px] bg-stone-200  w-[30%] px-[2vw] py-[10vw] border-l-[0.5px] border-black border-t-0 border-b-0 border-r-0  ">
+            <div class="2xl:absolute 2xl:top-10 xl:absolute xl:top-5 lg:absolute lg:top-5 md:absolute md:top-[17rem] absolute top-0 ">
+              <img src="Fimg4.png" class="2xl:block 2xl:-mt-[6.5rem] xl:block  lg:block  lg:mix-blend-multiply lg:w-40 lg:h-36 lg:absolute lg:top-16 sm:hidden max-sm:hidden md:hidden" alt="IMG">
+
+              <img src="Fimg4.png" class="sm:mix-blend-multiply 2xl:hidden xl:hidden lg:hidden sm:ml-8 sm:w-36 sm:h-36 max-sm:mix-blend-multiply max-sm:ml-8 max-sm:w-36 max-sm:h-36" alt="Nike">
+            <p class="2xl:text-left 2xl:text-[15px] 2xl:mt-20 xl:text-left xl:text-[15px] lg:text-left lg:mt-52 lg:text-[15px]  md:text-left md:text-[15px] sm:text-left sm:text-[13px] sm:ml-2 sm:-mt-6 max-sm:text-left max-sm:text-[13px] max-sm:ml-2 max-sm:-mt-6 ">
+              Creative Concepting, 2D & 3D Design,  Design Management for work in NYC and across the country.           
+             </p>
+          </div>
+          </div>
+        
+          <div class="swiper-slide text-[18px] bg-stone-200  w-[30%] px-[2vw] py-[10vw] border-l-[0.5px] border-black border-t-0 border-b-0 border-r-0  ">
+            <div class="2xl:absolute 2xl:top-10 xl:absolute xl:top-10 lg:absolute lg:top-10 md:absolute md:top-[21.5rem]">
+              <img src="Fimg5.svg" class="2xl:block 2xl:-mt-28 xl:block  lg:block lg:absolute lg:top-24 sm:hidden max-sm:hidden md:hidden" alt="IMG">
+
+              <img src="Fimg5.svg" class="2xl:hidden xl:hidden lg:hidden sm:ml-8 sm:-mt-20 sm:w-36 sm:h-36 max-sm:ml-8 max-sm:-mt-20 max-sm:w-36 max-sm:h-36" alt="Nike" >
+            <p class="2xl:text-left 2xl:text-[15px] 2xl:mt-10 xl:text-left xl:text-[15px] xl:pt-5 lg:text-left lg:text-[15px] lg:mt-40 md:text-left md:text-[15px] md:pt-5  sm:text-left sm:text-[13px] sm:ml-2 sm:-mt-6 max-sm:text-left max-sm:text-[13px] max-sm:ml-2 max-sm:-mt-6">
+              Production and design along  with install oversight and  execution support for the SoHo store opening on Broadway St, New York. Also  working on creative and production work for a new  store opening in Glendale, California.         
+            </p>
+            </div>
+          </div>
+          
+          <div class="swiper-slide 2xl:text-[18px] 2xl:bg-stone-200  2xl:w-[30%] 2xl:px-[2vw] 2xl:py-[10vw] 2xl:border-l-[0.5px] 2xl:border-black 2xl:border-t-0 2xl:border-b-0 2xl:border-r-0 
+          xl:text-[18px] xl:bg-stone-200  xl:w-[30%] xl:px-[2vw] xl:py-[10vw] xl:border-l-[0.5px] xl:border-black xl:border-t-0 xl:border-b-0 xl:border-r-0  
+          lg:text-[18px] lg:bg-stone-200  lg:w-[30%] lg:px-[2vw] lg:py-[10vw] lg:border-l-[0.5px] lg:border-black lg:border-t-0 lg:border-b-0 lg:border-r-0  
+          md:text-[18px] md:bg-stone-200  md:w-[30%] md:px-[2vw] md:py-[10vw] md:border-l-[0.5px] md:border-black md:border-t-0 md:border-b-0 md:border-r-0
+          sm:bg-stone-200 sm:border-l-[0.5px] sm:border-black sm:border-t-0 sm:border-b-0 sm:border-r-0 max-sm:bg-stone-200 max-sm:border-l-[0.5px] max-sm:border-black max-sm:border-t-0 max-sm:border-b-0 max-sm:border-r-0">
+          
+            <div class="2xl:absolute 2xl:-top-20 xl:absolute xl:top-10 lg:absolute lg:top-10 md:absolute md:top-[19rem] sm:absolute sm:top-10 max-sm:absolute max-sm:top-10">
+            <img src="Fimg6.svg" class="2xl:block xl:block  lg:block lg:absolute lg:top-24 sm:hidden max-sm:hidden md:hidden" alt="Nike">
+            <img src="Fimg6.svg" class="sm:ml-8 2xl:hidden xl:hidden lg:hidden  sm:-mt-10 sm:w-36 sm:h-36 max-sm:ml-8 max-sm:-mt-10 max-sm:w-36 max-sm:h-36" alt="Nike">
+
+            <p class="2xl:text-left 2xl:mt-200 2xl:text-[15px] xl:text-left xl:text-[15px] lg:text-left lg:mt-40 lg:text-[15px] md:text-left md:text-[15px] sm:text-left sm:text-[13px] sm:ml-2 sm:-mt-6 max-sm:text-left max-sm:text-[13px] max-sm:ml-2 max-sm:-mt-6">
+              Design and Production  partner for Hunter Holiday 2022 Pop-in at Nordstrom 57th St, New York, including activations in Women’s, Men’s and Kid’s zones. Thirty-five 
+            </p>
+          </div>
+          </div>
+          <div class="swiper-slide 2xl:text-[18px] 2xl:bg-stone-200  2xl:w-[30%] 2xl:px-[2vw] 2xl:py-[10vw] 2xl:border-l-[0.5px] 2xl:border-black 2xl:border-t-0 2xl:border-b-0 2xl:border-r-0 
+          xl:text-[18px] xl:bg-stone-200  xl:w-[30%] xl:px-[2vw] xl:py-[10vw] xl:border-l-[0.5px] xl:border-black xl:border-t-0 xl:border-b-0 xl:border-r-0  
+          lg:text-[18px] lg:bg-stone-200  lg:w-[30%] lg:px-[2vw] lg:py-[10vw] lg:border-l-[0.5px] lg:border-black lg:border-t-0 lg:border-b-0 lg:border-r-0  
+          md:text-[18px] md:bg-stone-200  md:w-[30%] md:px-[2vw] md:py-[10vw] md:border-l-[0.5px] md:border-black md:border-t-0 md:border-b-0 md:border-r-0
+          sm:bg-stone-200 sm:border-l-[0.5px] sm:border-black sm:border-t-0 sm:border-b-0 sm:border-r-0
+          max-sm:bg-stone-200 max-sm:border-l-[0.5px] max-sm:border-black max-sm:border-t-0 max-sm:border-b-0 max-sm:border-r-0
+          ">
+            <div class="2xl:absolute 2xl:top-10 xl:absolute xl:top-10 lg:absolute lg:top-10 md:absolute md:top-[20.5rem] sm:absolute sm:top-10 max-sm:absolute max-sm:top-10">
+              <img src="Fimg7.svg" class="2xl:block 2xl:-mt-24 xl:block  lg:block lg:absolute lg:top-24 sm:hidden max-sm:hidden md:hidden" alt="Nike">
+              <img src="Fimg7.svg" class="2xl:hidden xl:hidden lg:hidden sm:ml-8 sm:w-36 sm:-mt-10 sm:h-36 max-sm:ml-8 max-sm:w-36 max-sm:-mt-10 max-sm:h-36" alt="Nike">
+            <p class="2xl:text-left 2xl:mt-20 2xl:text-[15px] xl:text-left xl:mt-40 xl:text-[15px] lg:text-left lg:mt-40 lg:text-[15px] md:text-left md:text-[15px] sm:text-left sm:text-[13px] sm:ml-2 sm:-mt-6 max-sm:text-left max-sm:text-[13px] max-sm:ml-2 max-sm:-mt-6">
+              Creative, Design, and Production  Partner for 2023 CES. Scope Included creation of Branding Identity, Assets, and Digital Content, Design, Production design, Production oversight and Installation of client activations 
+            </p>
+            </div>
+          
+          </div>
+          <div class="swiper-slide 2xl:text-[18px] 2xl:bg-stone-200  2xl:w-[30%] 2xl:px-[2vw] 2xl:py-[10vw] 2xl:border-l-[0.5px] 2xl:border-black 2xl:border-t-0 2xl:border-b-0 2xl:border-r-0 
+          xl:text-[18px] xl:bg-stone-200  xl:w-[30%] xl:px-[2vw] xl:py-[10vw] xl:border-l-[0.5px] xl:border-black xl:border-t-0 xl:border-b-0 xl:border-r-0  
+          lg:text-[18px] lg:bg-stone-200  lg:w-[30%] lg:px-[2vw] lg:py-[10vw] lg:border-l-[0.5px] lg:border-black lg:border-t-0 lg:border-b-0 lg:border-r-0  
+          md:text-[18px] md:bg-stone-200  md:w-[30%] md:px-[2vw] md:py-[10vw] md:border-l-[0.5px] md:border-black md:border-t-0 md:border-b-0 md:border-r-0
+          sm:bg-stone-200 sm:border-l-[0.5px] sm:border-black sm:border-t-0 sm:border-b-0 sm:border-r-0
+          max-sm:bg-stone-200 max-sm:border-l-[0.5px] max-sm:border-black max-sm:border-t-0 max-sm:border-b-0 max-sm:border-r-0 ">
+            <div class="2xl:absolute 2xl:top-10 xl:absolute xl:top-10 lg:absolute lg:top-10 md:absolute md:top-[20.5rem] sm:absolute sm:top-10 max-sm:absolute max-sm:top-10">
+              <img src="Fimg8.svg" class="2xl:block 2xl:-mt-20 xl:block  lg:block lg:absolute lg:top-24 sm:hidden max-sm:hidden md:hidden" alt="Nike">
+              <img src="Fimg8.svg" class="2xl:hidden xl:hidden lg:hidden sm:ml-8 sm:w-36 sm:-mt-12 sm:h-36 max-sm:ml-8 max-sm:w-36 max-sm:-mt-12 max-sm:h-36" alt="Nike">
+            <p class="2xl:text-left 2xl:mt-20 2xl:text-[15px] xl:text-left xl:mt-40 xl:text-[15px] lg:text-left  lg:mt-36 lg:text-[15px] md:text-left md:text-[15px] sm:text-left sm:text-[13px] sm:ml-2 sm:-mt-6 max-sm:text-left max-sm:text-[13px] max-sm:ml-2 max-sm:-mt-6">
+              Creative, Design, and Production  Partner for 2022 NY Fashion Week Pop-Up space. In Partnership with B-Reel scope including creation of Final Design, Design Assets, 3D Renders, Production design, Production/Partner oversight
+            </p>
+          
+          </div>
+          </div>
+          
+        </div>
+      
+      </div>
+    </div>
+  
+</div>
+    <div id="page5" class="w-[100%] h-[100vh]">
+
+
+    </div>
+
+    </div>
+    <div id="footer" class="2xl:h-[100vh] 2xl:w-[100%] 2xl:fixed 2xl:-z-50  2xl:bg-black 2xl:flex-col  2xl:bottom-0 2xl:overflow-hidden
+    xl:h-[100vh] xl:w-[100%] xl:fixed xl:-z-50  xl:bg-black xl:flex-col  xl:bottom-0 xl:overflow-hidden
+    lg:h-[100vh] lg:w-[100%] lg:fixed lg:-z-50  lg:bg-black lg:flex-col  lg:bottom-0 lg:overflow-hidden
+    md:h-[100vh] md:w-[100%] md:fixed md:-z-50  md:bg-black md:flex-col  md:bottom-0 md:overflow-hidden
+    sm:h-[100vh] sm:w-[100%] sm:fixed sm:-z-50  sm:bg-black sm:flex-col  sm:bottom-0 sm:overflow-hidden
+    max-sm:h-[100vh] max-sm:w-[100%] max-sm:fixed max-sm:-z-50  max-sm:bg-black max-sm:flex-col  max-sm:bottom-0 max-sm:overflow-hidden">
+      <div class="2xl:w-[80em] 2xl:h-[32em] 2xl:bg-orange-600  2xl:absolute 2xl:-top-[17em] 2xl:-left-[19em] 2xl:right-auto 2xl:-rotate-[13deg] 2xl:blur-3xl
+       xl:w-[80em] xl:h-[32em] xl:bg-orange-600  xl:absolute xl:-top-[17em] xl:-left-[19em] xl:right-auto xl:-rotate-[13deg] xl:blur-3xl 
+       lg:w-[80em] lg:h-[32em] lg:bg-orange-600  lg:absolute lg:-top-[17em] lg:-left-[19em] lg:right-auto lg:-rotate-[13deg] lg:blur-3xl 
+       md:w-[80em] md:h-[32em] md:bg-orange-600  md:absolute md:-top-[17em] md:-left-[19em] md:right-auto md:-rotate-[13deg] md:blur-3xl 
+       sm:w-[80em] sm:h-[32em] sm:bg-orange-600  sm:absolute sm:-top-[17em] sm:-left-[19em] sm:right-auto sm:-rotate-[13deg] sm:blur-3xl
+       max-sm:w-[80em] max-sm:h-[32em] max-sm:bg-orange-600  max-sm:absolute max-sm:-top-[17em] max-sm:-left-[19em] max-sm:right-auto max-sm:-rotate-[13deg] max-sm:blur-3xl " id="FAnimation1"></div>
+      <div class="2xl:w-[93em] 2xl:h-[28em] 2xl:bg-orange-600  2xl:absolute 2xl:-top-4 2xl:blur-3xl 2xl:left-auto 2xl:-right-[42em] 2xl:rotate-[47deg] 
+      xl:w-[93em] xl:h-[28em] xl:bg-orange-600  xl:absolute xl:-top-96  xl:blur-3xl xl:left-auto  xl:rotate-[47deg] 
+      lg:w-[93em] lg:h-[28em] lg:bg-orange-600  lg:absolute lg:-top-96  lg:blur-3xl lg:left-auto  lg:rotate-[47deg]
+       md:w-[93em] md:h-[28em] md:bg-orange-600  md:absolute md:-top-96  md:blur-3xl md:left-auto  md:rotate-[47deg] 
+       sm:w-[93em] sm:h-[28em] sm:bg-orange-600  sm:absolute sm:-top-96  sm:blur-3xl sm:left-auto  sm:rotate-[47deg]
+       max-sm:w-[93em] max-sm:h-[28em] max-sm:bg-orange-600  max-sm:absolute max-sm:-top-96  max-sm:blur-3xl max-sm:left-auto  max-sm:rotate-[47deg]" id="FAnimation2"></div>
+      <div class="w-[13em] h-[35em] bg-orange-600  absolute -top-[8rem] blur-3xl left-auto right-[33em] rotate-[98deg] " id="FAnimation3"></div>
+
+
+      <div class="2xl:w-[100%] 2xl:h-[20vh] 2xl:flex 2xl:absolute 2xl:top-44 xl:w-[100%] xl:h-[20vh] xl:flex xl:absolute xl:top-44 lg:w-[100%] lg:h-[20vh] lg:flex lg:absolute lg:top-44 md:w-[100%] md:h-[20vh] md:flex md:absolute md:-left-11 md:top-44 sm:w-[100%] sm:h-[20vh] sm:flex sm:absolute sm:-left-11 sm:top-44 max-sm:w-[100%] max-sm:h-[20vh] max-sm:flex max-sm:absolute max-sm:-left-11 max-sm:top-44">
+        <div class="2xl:felx 2xl:flex-col 2xl:ml-24 2xl:leading-9 xl:felx xl:flex-col xl:ml-24 xl:leading-9 2xl:felx lg:flex-col lg:ml-24 lg:leading-9 md:flex-col md:ml-24 md:leading-9 sm:flex-col sm:ml-24 sm:leading-9 max-sm:flex-col max-sm:ml-24 max-sm:leading-9">
+          <h1 class="2xl:text-[30px] 2xl:font-bold 2xl:text-white xl:text-[30px] xl:font-bold xl:text-white lg:text-[30px] lg:font-bold lg:text-white md:text-[30px] md:font-bold md:text-white sm:text-[30px] sm:text-white max-sm:font-bold max-sm:text-white">Wrok</h1>
+          <h1 class="2xl:text-[30px] 2xl:font-bold 2xl:text-white xl:text-[30px] xl:font-bold xl:text-white lg:text-[30px] lg:font-bold lg:text-white md:text-[30px] md:font-bold md:text-white sm:text-[30px]  sm:text-white max-sm:font-bold max-sm:text-white">Studio</h1>
+          <h1 class="2xl:text-[30px] 2xl:font-bold 2xl:text-white xl:text-[30px] xl:font-bold xl:text-white lg:text-[30px] lg:font-bold lg:text-white md:text-[30px] md:font-bold md:text-white sm:text-[30px]  sm:text-white max-sm:font-bold max-sm:text-white">Contact</h1>
+        </div>
+        <div class=" 2xl:ml-[60%]  xl:ml-[13%] lg:ml-[10%] md:ml-[10%] sm:ml-[5.5%] max-sm:ml-[5.5%]">
+          <p class="text-white text-xl">Get industry insights and creative <br> inspiration straight to your inbox.</p>
+          <input id="email" type="email" autocomplete="email" placeholder="Email address" class="mt-5 border-t-0 border-r-0 border-l-0 border-b-[0.5px] border-white bg-transparent"><i class="ri-arrow-right-line text-white text-2xl"></i>        </div>
+      </div>
+      <h1 class="2xl:text-[24vw] 2xl:text-white 2xl:absolute 2xl:top-72
+      xl:text-[24vw] xl:text-white xl:absolute xl:top-52
+      lg:text-[24vw] lg:text-white lg:absolute lg:top-60
+      md:text-[24vw] md:text-white md:absolute md:top-72
+      sm:text-[24vw] sm:text-white sm:absolute sm:top-72
+      max-sm:text-[24vw] max-sm:text-white max-sm:absolute max-sm:top-72">Sundown</h1>
+
+    </div>
+
+<script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+<script src="locomotive.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="gsap.js"></script>
+</body>
+</html>
