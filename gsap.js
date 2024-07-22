@@ -165,7 +165,7 @@ function LAnimation(){
     Pbtn.style.borderLeft = "1px solid rgb(231,229,228)";
     ExecutionBtn.style.borderLeft = "1px solid rgb(231,229,228)";
     Fimg.style.backgroundImage = "none";
-    Fimg.style.backgroundImage = "url(footerimg.webp)";
+    Fimg.style.backgroundImage = "url(footerimg.png)";
     Exbtn.style.color = "#57534E";
     Dbtn.style.color = "white";
     pbtn.style.color = "#57534E";
@@ -180,7 +180,7 @@ function LAnimation(){
     Pbtn.style.borderLeft = "1px solid rgb(231,229,228)";
     DesignBtn.style.borderLeft = "1px solid rgb(231,229,228)";
     Fimg.style.backgroundImage = "none";
-    Fimg.style.backgroundImage = "url(footerimg2.webp)";
+    Fimg.style.backgroundImage = "url(footerimg2.png)";
     Exbtn.style.color = "white";
     Dbtn.style.color = "#57534E";
     pbtn.style.color = "#57534E";
@@ -221,7 +221,7 @@ function L2Animation(){
     Pbtn.style.borderLeft = "1px solid rgb(231,229,228)";
     ExecutionBtn.style.borderLeft = "1px solid rgb(231,229,228)";
     Fimg.style.backgroundImage = "none";
-    Fimg.style.backgroundImage = "url(footerimg.webp)";
+    Fimg.style.backgroundImage = "url(footerimg.png)";
     Exbtn.style.color = "#57534E";
     Dbtn.style.color = "white";
     pbtn.style.color = "#57534E";
@@ -235,7 +235,7 @@ function L2Animation(){
     Pbtn.style.borderLeft = "1px solid rgb(231,229,228)";
     DesignBtn.style.borderLeft = "1px solid rgb(231,229,228)";
     Fimg.style.backgroundImage = "none";
-    Fimg.style.backgroundImage = "url(footerimg2.webp)";
+    Fimg.style.backgroundImage = "url(footerimg2.png)";
     Exbtn.style.color = "white";
     Dbtn.style.color = "#57534E";
     pbtn.style.color = "#57534E";

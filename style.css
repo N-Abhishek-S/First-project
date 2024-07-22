@@ -3433,6 +3433,38 @@ video {
     margin-top: 70%;
   }
 
+  .max-sm\:mt-9 {
+    margin-top: 2.25rem;
+  }
+
+  .max-sm\:-mt-2 {
+    margin-top: -0.5rem;
+  }
+
+  .max-sm\:-mt-3 {
+    margin-top: -0.75rem;
+  }
+
+  .max-sm\:mt-3 {
+    margin-top: 0.75rem;
+  }
+
+  .max-sm\:mt-7 {
+    margin-top: 1.75rem;
+  }
+
+  .max-sm\:mt-6 {
+    margin-top: 1.5rem;
+  }
+
+  .max-sm\:mt-10 {
+    margin-top: 2.5rem;
+  }
+
+  .max-sm\:-mt-0 {
+    margin-top: -0px;
+  }
+
   .max-sm\:line-clamp-\[-5px\] {
     overflow: hidden;
     display: -webkit-box;
@@ -3585,6 +3617,10 @@ video {
     height: 100%;
   }
 
+  .max-sm\:h-24 {
+    height: 6rem;
+  }
+
   .max-sm\:w-36 {
     width: 9rem;
   }
@@ -3666,6 +3702,10 @@ video {
     width: 100%;
   }
 
+  .max-sm\:w-20 {
+    width: 5rem;
+  }
+
   .max-sm\:min-w-\[100\%\] {
     min-width: 100%;
   }
@@ -3708,6 +3748,10 @@ video {
 
   .max-sm\:overflow-hidden {
     overflow: hidden;
+  }
+
+  .max-sm\:overflow-x-hidden {
+    overflow-x: hidden;
   }
 
   .max-sm\:text-wrap {
@@ -5540,6 +5584,18 @@ video {
 
   .md\:mt-\[70\%\] {
     margin-top: 70%;
+  }
+
+  .md\:-mt-1 {
+    margin-top: -0.25rem;
+  }
+
+  .md\:mt-1 {
+    margin-top: 0.25rem;
+  }
+
+  .md\:mt-3 {
+    margin-top: 0.75rem;
   }
 
   .md\:block {
@@ -8126,6 +8182,10 @@ video {
     top: 65%;
   }
 
+  .\32xl\:top-28 {
+    top: 7rem;
+  }
+
   .\32xl\:-z-50 {
     z-index: -50;
   }
@@ -8236,6 +8296,30 @@ video {
 
   .\32xl\:mt-\[60\%\] {
     margin-top: 60%;
+  }
+
+  .\32xl\:mt-1 {
+    margin-top: 0.25rem;
+  }
+
+  .\32xl\:mt-28 {
+    margin-top: 7rem;
+  }
+
+  .\32xl\:mt-\[7rem\] {
+    margin-top: 7rem;
+  }
+
+  .\32xl\:mt-\[10rem\] {
+    margin-top: 10rem;
+  }
+
+  .\32xl\:-mt-16 {
+    margin-top: -4rem;
+  }
+
+  .\32xl\:ml-\[61\%\] {
+    margin-left: 61%;
   }
 
   .\32xl\:block {
@@ -8351,6 +8435,14 @@ video {
     height: 100%;
   }
 
+  .\32xl\:h-36 {
+    height: 9rem;
+  }
+
+  .\32xl\:h-2 {
+    height: 0.5rem;
+  }
+
   .\32xl\:w-44 {
     width: 11rem;
   }
@@ -8413,6 +8505,18 @@ video {
 
   .\32xl\:w-full {
     width: 100%;
+  }
+
+  .\32xl\:w-36 {
+    width: 9rem;
+  }
+
+  .\32xl\:w-32 {
+    width: 8rem;
+  }
+
+  .\32xl\:w-40 {
+    width: 10rem;
   }
 
   .\32xl\:min-w-\[100\%\] {
@@ -8637,6 +8741,10 @@ video {
 
   .\32xl\:pt-\[40rem\] {
     padding-top: 40rem;
+  }
+
+  .\32xl\:pt-28 {
+    padding-top: 7rem;
   }
 
   .\32xl\:text-left {
