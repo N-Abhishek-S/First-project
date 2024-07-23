@@ -198,7 +198,7 @@ function L2Animation(){
   const pbtn = document.querySelector(".pbtn");
   const Dbtn = document.querySelector(".Dbtn");
 
-  Pbtn.addEventListener("click",function(){
+  Pbtn.addEventListener("click",()=>{
     PbtnPara.style.display = "block";
     DefaultPara.style.display = "none";
     ExecutionPara.style.display = "none";
@@ -209,9 +209,9 @@ function L2Animation(){
     Fimg.style.backgroundImage = "url(footerimg3.png)";
     Exbtn.style.color = "#57534E";
     Dbtn.style.color = "#57534E";
-    pbtn.style.color = "white";
-
+    pbtn.style.color = "#fff";
   });
+  
 
   DesignBtn.addEventListener("click",()=>{
     PbtnPara.style.display = "none";
@@ -223,7 +223,7 @@ function L2Animation(){
     Fimg.style.backgroundImage = "none";
     Fimg.style.backgroundImage = "url(footerimg.png)";
     Exbtn.style.color = "#57534E";
-    Dbtn.style.color = "white";
+    Dbtn.style.color = "#fff";
     pbtn.style.color = "#57534E";
   });
 
@@ -236,7 +236,7 @@ function L2Animation(){
     DesignBtn.style.borderLeft = "1px solid rgb(231,229,228)";
     Fimg.style.backgroundImage = "none";
     Fimg.style.backgroundImage = "url(footerimg2.png)";
-    Exbtn.style.color = "white";
+    Exbtn.style.color = "#fff";
     Dbtn.style.color = "#57534E";
     pbtn.style.color = "#57534E";
   });
